@@ -1,0 +1,303 @@
+rel_path,source_label_or_box_classes,mapped_label,md5,md5_match,phash_min_distance,dinov2_max_cosine,nearest_solarfcd,removed_as_overlapping
+Soiling_DS_v2_14/test/images/ROI_102_jpg.rf.fa9f2d998fd0b9874bc2a3a58394e73e.jpg,"0,1",Surface_Obstruction,6eb1a181da726d4ac739d05b33c16946,False,16,0.926,Train/Surface_Obstruction/Imgdirty_707_1.jpg,True
+Soiling_DS_v2_14/test/images/ROI_116_jpg.rf.ced8d5064d82fd9a7d327899502fb0e2.jpg,"0,1",Surface_Obstruction,13c243c75c5d6fe515d8268b77718c72,False,14,0.8893,Test/Structural_Fault/Physical (13)-PP.jpg,True
+Soiling_DS_v2_14/test/images/ROI_13_jpg.rf.a9b42b414d421d8715bc4822f568663b.jpg,0,Surface_Obstruction,23f20d90785ebf63096878508727ee1b,False,12,0.8868,Train/Healthy/Imgclean_428_0.jpg,True
+Soiling_DS_v2_14/test/images/ROI_144_jpg.rf.577be9bd938aac2b0b748e7d9ae7c77d.jpg,0,Surface_Obstruction,e25004c82a2105eba6ad5ce6150c3b0d,False,14,0.9207,Train/Surface_Obstruction/Imgdirty_707_1.jpg,True
+Soiling_DS_v2_14/test/images/ROI_145_jpg.rf.5c95d4390db53f82ade0d6fff2555fb0.jpg,0,Surface_Obstruction,9a4bb110e992b2e60cb00d84ef2eaff2,False,14,0.9301,Train/Surface_Obstruction/Imgdirty_707_1.jpg,True
+Soiling_DS_v2_14/test/images/ROI_14_jpg.rf.f64294ba0eaa0dba557f5d283b7b22d6.jpg,"0,1",Surface_Obstruction,d353d728b57521382eee6c5e07889974,False,16,0.8637,Train/Healthy/Imgclean_428_0.jpg,True
+Soiling_DS_v2_14/test/images/ROI_151_jpg.rf.496c1a0792b1a5b5301cef5a5cba81ff.jpg,"0,1",Surface_Obstruction,1bfc9bf8ebc0939c5d073e7a225d4fc3,False,16,0.906,Train/Surface_Obstruction/Imgdirty_872_1.jpg,True
+Soiling_DS_v2_14/test/images/ROI_15_jpg.rf.f61bc5e2ee272e8ea7b3677fcc7e357d.jpg,0,Surface_Obstruction,7e8b10b746fe778790e7af738859cef2,False,14,0.8797,Train/Healthy/Imgclean_421_0.jpg,True
+Soiling_DS_v2_14/test/images/ROI_1_jpg.rf.aec99dc0cc935356da394c8954cd9264.jpg,"0,1",Surface_Obstruction,6d184ddbf00c3aa85d1178287320e2a9,False,16,0.725,Test/Surface_Obstruction/Bird (177).jpg,False
+Soiling_DS_v2_14/test/images/ROI_24_jpg.rf.8fdb7ce95478a64d63170c41f93ef1a2.jpg,"0,1",Surface_Obstruction,5e6d3827337dbc64b76ca583e3cbef87,False,16,0.8099,Train/Healthy/Imgclean_428_0.jpg,False
+Soiling_DS_v2_14/test/images/ROI_26_jpg.rf.3310566da181dd7569de0ef8d048aa8f.jpg,"0,1",Surface_Obstruction,048cd307d1b7cc463af3e59049d47ac4,False,14,0.8383,Valid/Structural_Fault/Physical (3)-P.jpg,False
+Soiling_DS_v2_14/test/images/ROI_32_jpg.rf.e1464e31b129ae993f5a27c271956820.jpg,0,Surface_Obstruction,560948e4151dedce50bab72c7545e9fa,False,18,0.8478,Train/Healthy/Imgclean_428_0.jpg,False
+Soiling_DS_v2_14/test/images/ROI_33_jpg.rf.2fa36bf0b675ad44a59aebf13ff863d5.jpg,"0,1",Surface_Obstruction,f491a578af636dd92e311040b7283029,False,14,0.8068,Valid/Structural_Fault/Physical (3)-P.jpg,False
+Soiling_DS_v2_14/test/images/ROI_34_jpg.rf.e83c896bf85943578f1d40b25bebc575.jpg,0,Surface_Obstruction,5035c6ae893469c7486a43364c72e335,False,14,0.8367,Train/Healthy/Imgclean_428_0.jpg,False
+Soiling_DS_v2_14/test/images/ROI_36_jpg.rf.1c98d4107f542252da8973e1044919cf.jpg,0,Surface_Obstruction,d29f4cfc2afc07eeaaa7771c9bd4d4b9,False,16,0.7687,Train/Healthy/Imgclean_428_0.jpg,False
+Soiling_DS_v2_14/test/images/ROI_45_jpg.rf.7ba6b970bb9a80d43b348fe611eee807.jpg,"0,1",Surface_Obstruction,cc96aeef3d70ba954dc2b71cea577634,False,14,0.836,Train/Surface_Obstruction/Imgdirty_707_1.jpg,False
+Soiling_DS_v2_14/test/images/ROI_46_jpg.rf.6e36068ebdb152a7eea458c7effebf09.jpg,"0,1",Surface_Obstruction,9f9ee3415720ce6e8cb099fd0c06ae31,False,18,0.8372,Train/Surface_Obstruction/Imgdirty_707_1.jpg,False
+Soiling_DS_v2_14/test/images/ROI_53_jpg.rf.371086cf577b8fdd6c85a5163e38cc56.jpg,0,Surface_Obstruction,6a34e2326502a093e014e2281fc0bb57,False,16,0.838,Train/Electrical_Fault/Electrical (37).jpg,False
+Soiling_DS_v2_14/test/images/ROI_57_jpg.rf.8891c5d1a977521e718c7ec5faaa24a6.jpg,0,Surface_Obstruction,bb60718865046ada8da13fbb65ec8a9e,False,12,0.884,Train/Healthy/Imgclean_421_0.jpg,True
+Soiling_DS_v2_14/test/images/ROI_59_jpg.rf.0f677d10c3bdd36d1ddbf1d104576508.jpg,1,Surface_Obstruction,65d4a882a439dad09a516be78bfe46dc,False,14,0.8666,Train/Healthy/Imgclean_426_0.jpg,True
+Soiling_DS_v2_14/test/images/ROI_65_jpg.rf.4036b7ff8db5e65d080c92e643b87097.jpg,0,Surface_Obstruction,02437f3635c4e2c4f98c4abe14d78cad,False,16,0.8572,Valid/Structural_Fault/Physical (3)-P.jpg,True
+Soiling_DS_v2_14/test/images/ROI_83_jpg.rf.7e46ad28db12fc52fe731bacb0101a7d.jpg,0,Surface_Obstruction,82f109fba43737094ddca305f731e9eb,False,16,0.7162,Train/Healthy/Imgclean_1035_0.jpg,False
+Soiling_DS_v2_14/test/images/ROI_90_jpg.rf.d43a5f557b7c41332db01b74d646f37e.jpg,0,Surface_Obstruction,d524a7b41c98af8cbc0e31db2ac4d7a7,False,14,0.8456,Train/Surface_Obstruction/Imgdirty_43_1.jpg,False
+Soiling_DS_v2_14/train/images/ROI_100_jpg.rf.7a597b55df1d9ab9196ac883572e68dd.jpg,0,Surface_Obstruction,c3689bfef201398e4f6171e430e7c8fa,False,18,0.9393,Train/Surface_Obstruction/Imgdirty_707_1.jpg,True
+Soiling_DS_v2_14/train/images/ROI_100_jpg.rf.94fca3e19d4696571a4426309fbf6c1d.jpg,0,Surface_Obstruction,c3689bfef201398e4f6171e430e7c8fa,False,18,0.9393,Train/Surface_Obstruction/Imgdirty_707_1.jpg,True
+Soiling_DS_v2_14/train/images/ROI_100_jpg.rf.bec9e9c3bd96a0fb02760a5bec15c6a0.jpg,0,Surface_Obstruction,7345634f7c71a6c33b7e09fb59d5325a,False,18,0.8787,Test/Healthy/Clean (156).jpg,True
+Soiling_DS_v2_14/train/images/ROI_101_jpg.rf.4edf72b1947a5fe0e3637e509c2765c9.jpg,0,Surface_Obstruction,f07a8f7ac173f2a052b6695df6d332a1,False,18,0.9187,Valid/Surface_Obstruction/Bird (35)-bb.jpg,True
+Soiling_DS_v2_14/train/images/ROI_101_jpg.rf.9488b1053ec68ad4beb106862a20431b.jpg,0,Surface_Obstruction,da1980af625edde715b60c8a8ac774ac,False,18,0.9211,Test/Surface_Obstruction/Bird (78).jpg,True
+Soiling_DS_v2_14/train/images/ROI_101_jpg.rf.c7c8b8f37e9b58fcda710cac9a37c46f.jpg,0,Surface_Obstruction,8a05fd68de3e2818a170de258ea44721,False,18,0.8903,Test/Structural_Fault/Physical (13)-PP.jpg,True
+Soiling_DS_v2_14/train/images/ROI_104_jpg.rf.044739ffdec2ff6b5b65654ea907ccb6.jpg,"0,1",Surface_Obstruction,aa11828bfcd65d128590ae4cfafb6851,False,18,0.9179,Train/Surface_Obstruction/Imgdirty_635_1.jpg,True
+Soiling_DS_v2_14/train/images/ROI_104_jpg.rf.0f16dec24f5d1b819dd210b9fb033439.jpg,"0,1",Surface_Obstruction,85ff35f22f2b07f15e533cd89e2619e7,False,18,0.8175,Train/Healthy/Imgclean_428_0.jpg,False
+Soiling_DS_v2_14/train/images/ROI_104_jpg.rf.b0a61f609d8257475eadac22abf67d6c.jpg,"0,1",Surface_Obstruction,f94f559372fde690fb404e7ff19f1bc1,False,18,0.9162,Test/Healthy/Clean (139).JPG,True
+Soiling_DS_v2_14/train/images/ROI_105_jpg.rf.477be6e51ee0e9fae2e1a4e2404ee03e.jpg,"0,1",Surface_Obstruction,315f344b28e759f7c87f0406d01bf751,False,16,0.9259,Train/Surface_Obstruction/Imgdirty_707_1.jpg,True
+Soiling_DS_v2_14/train/images/ROI_105_jpg.rf.5c9217ec875023d1e9047d4770cf436a.jpg,"0,1",Surface_Obstruction,e5749b361faa08385f7fb6e92ac033ef,False,18,0.9344,Train/Surface_Obstruction/Imgdirty_707_1.jpg,True
+Soiling_DS_v2_14/train/images/ROI_106_jpg.rf.47af69d9ea03a4ae9c9b1b3031b46d00.jpg,"0,1",Surface_Obstruction,10a0db84f6b750478905ae39a685bd25,False,18,0.9195,Train/Surface_Obstruction/Imgdirty_707_1.jpg,True
+Soiling_DS_v2_14/train/images/ROI_106_jpg.rf.b3d8bc190d5b94f65d140dfdb5ee82ff.jpg,"0,1",Surface_Obstruction,1c7a1397943094cc9fe1d0e2ae0ad6d8,False,16,0.8302,Test/Structural_Fault/Physical (13)-PP.jpg,False
+Soiling_DS_v2_14/train/images/ROI_106_jpg.rf.e56f063f5f643a55453e555ac8b4c0d2.jpg,"0,1",Surface_Obstruction,1b3574809027af0d3b14697c3a964fc7,False,16,0.8705,Test/Structural_Fault/Physical (13)-PP.jpg,True
+Soiling_DS_v2_14/train/images/ROI_107_jpg.rf.38ef491a3e8485efbbe624d323ecce6f.jpg,0,Surface_Obstruction,495279b1d3af11abf8f160a5877b5537,False,16,0.7986,Train/Electrical_Fault/Electrical (140).jpg,False
+Soiling_DS_v2_14/train/images/ROI_107_jpg.rf.85eb8ad1a053c235b478125062e6e959.jpg,0,Surface_Obstruction,7e55d3f976964ad88d2df6176957556d,False,14,0.9159,Test/Healthy/Clean (166).jpg,True
+Soiling_DS_v2_14/train/images/ROI_107_jpg.rf.e69770ec452a76e38e9955b8f94bce2a.jpg,0,Surface_Obstruction,2709ecc9b46ebeaca58da1a7939bec92,False,16,0.9056,Test/Healthy/Clean (166).jpg,True
+Soiling_DS_v2_14/train/images/ROI_108_jpg.rf.4a8aacf141d1455602feb20801ede5ae.jpg,"0,1",Surface_Obstruction,2e2687b937bb487527d4e6363ea46bb8,False,18,0.8063,Train/Surface_Obstruction/Imgdirty_845_1.jpg,False
+Soiling_DS_v2_14/train/images/ROI_108_jpg.rf.83913fd3995ab925ecbd81a92c5267f0.jpg,"0,1",Surface_Obstruction,e2d633ae1fb0ed079e32bc17ae169b80,False,18,0.8927,Train/Structural_Fault/Physical (145).jpg,True
+Soiling_DS_v2_14/train/images/ROI_108_jpg.rf.dd2e5791a2969c80306f4c71b30c4dd7.jpg,"0,1",Surface_Obstruction,e2d633ae1fb0ed079e32bc17ae169b80,False,18,0.8927,Train/Structural_Fault/Physical (145).jpg,True
+Soiling_DS_v2_14/train/images/ROI_109_jpg.rf.5c8cc51efea6cff42129e751094b792e.jpg,0,Surface_Obstruction,05713afd031fd28fc9276fd5c0f52870,False,16,0.9176,Valid/Surface_Obstruction/Bird (18)-bb.JPG,True
+Soiling_DS_v2_14/train/images/ROI_109_jpg.rf.adcdfb59bda7f337883dcf5a639593f1.jpg,0,Surface_Obstruction,d76075e8324659e668a7d42827329ad6,False,18,0.8523,Train/Surface_Obstruction/Imgdirty_686_1.jpg,True
+Soiling_DS_v2_14/train/images/ROI_109_jpg.rf.cad8115a9cc34fb91974e2e3e4d6e2f7.jpg,0,Surface_Obstruction,05713afd031fd28fc9276fd5c0f52870,False,16,0.9176,Valid/Surface_Obstruction/Bird (18)-bb.JPG,True
+Soiling_DS_v2_14/train/images/ROI_10_jpg.rf.73ed4003ee71aae6eb3e490a44a861e4.jpg,"0,1",Surface_Obstruction,349678dd9c4bf9d5063475e6df6dc3c4,False,16,0.7388,Train/Healthy/Imgclean_428_0.jpg,False
+Soiling_DS_v2_14/train/images/ROI_10_jpg.rf.7945d2167df897e790f9f2418354c761.jpg,"0,1",Surface_Obstruction,066a7777cb9b9172549fbe2ec45e9c70,False,18,0.8662,Valid/Structural_Fault/Physical (3)-P.jpg,True
+Soiling_DS_v2_14/train/images/ROI_117_jpg.rf.01569cd100ec9a13ba7658310d012285.jpg,0,Surface_Obstruction,7cd028fd64011ac55c9407f6128de88f,False,18,0.7357,Train/Electrical_Fault/Electrical (37).jpg,False
+Soiling_DS_v2_14/train/images/ROI_117_jpg.rf.2f0a3302a22fcae3dd0d75dfe2040a7a.jpg,0,Surface_Obstruction,45279c2aa7b58cad16505bfb8bbe083d,False,16,0.7615,Test/Surface_Obstruction/Bird (170).JPG,False
+Soiling_DS_v2_14/train/images/ROI_117_jpg.rf.dd4c75e488dc639eeef81c045b751374.jpg,0,Surface_Obstruction,7cd028fd64011ac55c9407f6128de88f,False,18,0.7357,Train/Electrical_Fault/Electrical (37).jpg,False
+Soiling_DS_v2_14/train/images/ROI_119_jpg.rf.68df967e25bc1043eef2f2fb171233b7.jpg,0,Surface_Obstruction,f8567ccece6c9e9b9bdf4a93b045f27b,False,12,0.8791,Train/Healthy/Imgclean_428_0.jpg,True
+Soiling_DS_v2_14/train/images/ROI_119_jpg.rf.70b9a73fa2b970609729a9f4bd9c6722.jpg,0,Surface_Obstruction,515f9836b48c71c64b2701ec5271f2f1,False,14,0.8256,Train/Healthy/Imgclean_428_0.jpg,False
+Soiling_DS_v2_14/train/images/ROI_119_jpg.rf.d08f29e659739a254d36988513026088.jpg,0,Surface_Obstruction,515f9836b48c71c64b2701ec5271f2f1,False,14,0.8256,Train/Healthy/Imgclean_428_0.jpg,False
+Soiling_DS_v2_14/train/images/ROI_11_jpg.rf.07a8b10ccf101c0a31b0437ed5ea9dec.jpg,"0,1",Surface_Obstruction,eb48bc26facbe1d067946b869fd4cd5a,False,16,0.8389,Train/Healthy/Imgclean_428_0.jpg,False
+Soiling_DS_v2_14/train/images/ROI_11_jpg.rf.360e1afb1e00247b9c5fea16d8392511.jpg,"0,1",Surface_Obstruction,3134b38df0b2355dd958bf96c52354bd,False,14,0.8563,Train/Healthy/Imgclean_426_0.jpg,True
+Soiling_DS_v2_14/train/images/ROI_120_jpg.rf.29f8f640a38b8576ffbdc5eb17dc85d0.jpg,"0,1",Surface_Obstruction,b7d87d486ab64d3d7a8925629f7013a5,False,16,0.8662,Train/Healthy/Imgclean_428_0.jpg,True
+Soiling_DS_v2_14/train/images/ROI_120_jpg.rf.a27554cbfda5318ae76d27667f821545.jpg,"0,1",Surface_Obstruction,98f33f78a5b491a4ae79e24bf8f99074,False,16,0.874,Train/Healthy/Imgclean_428_0.jpg,True
+Soiling_DS_v2_14/train/images/ROI_123_jpg.rf.1b2a0098538eeb22e88ea50833e2fcd1.jpg,"0,1",Surface_Obstruction,e73a034a58147bb1863872de46c01deb,False,14,0.9261,Valid/Surface_Obstruction/Bird (1)-bb.jpg,True
+Soiling_DS_v2_14/train/images/ROI_123_jpg.rf.26905e7fa9e6736a153e97041334fa76.jpg,"0,1",Surface_Obstruction,e73a034a58147bb1863872de46c01deb,False,14,0.9261,Valid/Surface_Obstruction/Bird (1)-bb.jpg,True
+Soiling_DS_v2_14/train/images/ROI_123_jpg.rf.b818a12302f93b49cdb76a036336421c.jpg,"0,1",Surface_Obstruction,9ddf2d7153ea7ccc6d29696818453f14,False,16,0.9298,Valid/Surface_Obstruction/Bird (1)-bb.jpg,True
+Soiling_DS_v2_14/train/images/ROI_124_jpg.rf.49250ac9f0a9fd5a7cd63e3752d9529f.jpg,"0,1",Surface_Obstruction,06b198e8a591ba1c412f4d02f0855dcf,False,12,0.8314,Train/Healthy/Imgclean_429_0.jpg,True
+Soiling_DS_v2_14/train/images/ROI_124_jpg.rf.5b0019ed684b955d6bb86fe0b676854b.jpg,"0,1",Surface_Obstruction,0cbaeb56fea856fe1f0c8fa2915b37e3,False,18,0.9314,Valid/Surface_Obstruction/Bird (18)-bb.JPG,True
+Soiling_DS_v2_14/train/images/ROI_124_jpg.rf.edae890deae82b03c69f57ecc7f9a499.jpg,"0,1",Surface_Obstruction,7ce5a585ce6391efbe8c53aa2d2f26d3,False,14,0.9388,Test/Surface_Obstruction/Bird (137).JPG,True
+Soiling_DS_v2_14/train/images/ROI_125_jpg.rf.679a0159ed6fcd3cf336fe8be49642e8.jpg,"0,1",Surface_Obstruction,0093d14ac53e27348801ecac4fd2e112,False,14,0.9433,Train/Surface_Obstruction/Imgdirty_707_1.jpg,True
+Soiling_DS_v2_14/train/images/ROI_125_jpg.rf.79c2e1dc00712a242d7f3eca6e14774a.jpg,"0,1",Surface_Obstruction,077153061a0ec0eab44fbf295b1ecccb,False,16,0.9481,Train/Surface_Obstruction/Imgdirty_707_1.jpg,True
+Soiling_DS_v2_14/train/images/ROI_125_jpg.rf.f9113182feef50b38f23a89ba958b279.jpg,"0,1",Surface_Obstruction,947543bf60488e8e6e1e7b1cf936408c,False,18,0.8619,Train/Surface_Obstruction/Imgdirty_707_1.jpg,True
+Soiling_DS_v2_14/train/images/ROI_126_jpg.rf.67c5a9fad34becf7479e9e97adce9989.jpg,"0,1",Surface_Obstruction,bc539991faf2709ecb26addf7ae40ec7,False,12,0.9258,Valid/Surface_Obstruction/Bird (18)-bb.JPG,True
+Soiling_DS_v2_14/train/images/ROI_126_jpg.rf.cfa032b02612280aaf99e9222db701e3.jpg,"0,1",Surface_Obstruction,bc539991faf2709ecb26addf7ae40ec7,False,12,0.9258,Valid/Surface_Obstruction/Bird (18)-bb.JPG,True
+Soiling_DS_v2_14/train/images/ROI_126_jpg.rf.e0383b0ea6ef192c675310e3b1ebef9b.jpg,"0,1",Surface_Obstruction,d667621217f8de8d266c581e3b03423d,False,12,0.8323,Train/Healthy/Imgclean_428_0.jpg,True
+Soiling_DS_v2_14/train/images/ROI_127_jpg.rf.15555230e7c8b0d6e430813e58bb1892.jpg,"0,1",Surface_Obstruction,512416b29df9fe26fa82f648fcdc9c4e,False,14,0.8534,Train/Healthy/Imgclean_1097_0.jpg,True
+Soiling_DS_v2_14/train/images/ROI_127_jpg.rf.5a9e23a7e351d0980735af8bd1f0fbfc.jpg,"0,1",Surface_Obstruction,88525e0af6263b69987da65a46d07a48,False,18,0.9202,Test/Surface_Obstruction/Bird (137).JPG,True
+Soiling_DS_v2_14/train/images/ROI_127_jpg.rf.ec3ed049a9912e6c8a89d926b3c614e6.jpg,"0,1",Surface_Obstruction,88525e0af6263b69987da65a46d07a48,False,18,0.9202,Test/Surface_Obstruction/Bird (137).JPG,True
+Soiling_DS_v2_14/train/images/ROI_128_jpg.rf.7f68ccb60cb0c3486e6cf7c23eba6051.jpg,0,Surface_Obstruction,577236c13d0af9f75b276dc01f46645b,False,18,0.6807,Test/Surface_Obstruction/Bird (170).JPG,False
+Soiling_DS_v2_14/train/images/ROI_128_jpg.rf.d6100158545f38d4a64b4184a8c64028.jpg,0,Surface_Obstruction,119e3100588a34cf32a14c393e14edff,False,18,0.7729,Train/Surface_Obstruction/Imgdirty_846_1.jpg,False
+Soiling_DS_v2_14/train/images/ROI_128_jpg.rf.e4fea92ed48edabbbf26bc8eb8a80d5e.jpg,0,Surface_Obstruction,cc79859e0f231999f0d776561f8116f1,False,20,0.7911,Test/Surface_Obstruction/Bird (170).JPG,False
+Soiling_DS_v2_14/train/images/ROI_129_jpg.rf.6c98ae3ce669ef9c1dff55524943bdf4.jpg,"0,1",Surface_Obstruction,9bdd04b255d5d0470d3cc1e03937c94c,False,16,0.5853,Test/Surface_Obstruction/Bird (119).jpg,False
+Soiling_DS_v2_14/train/images/ROI_129_jpg.rf.d90d0872830a89baeea2aadf334672f7.jpg,"0,1",Surface_Obstruction,00ed76dc717de4ef9eed2b8727e07eab,False,18,0.9218,Train/Healthy/Imgclean_636_0.jpg,True
+Soiling_DS_v2_14/train/images/ROI_12_jpg.rf.4a706298dce5cee664a2875a1135453e.jpg,0,Surface_Obstruction,7fc5ee3ef313451bd54bc457116948d3,False,14,0.81,Train/Healthy/Imgclean_426_0.jpg,False
+Soiling_DS_v2_14/train/images/ROI_12_jpg.rf.cd01e6d3c2f3b7dc7b09dd72071fb67a.jpg,0,Surface_Obstruction,326544d2cd1188119c5133c44125173d,False,16,0.8165,Train/Healthy/Imgclean_428_0.jpg,False
+Soiling_DS_v2_14/train/images/ROI_12_jpg.rf.e53eda4896ade99492e46d2f97ea9d4a.jpg,0,Surface_Obstruction,7fc5ee3ef313451bd54bc457116948d3,False,14,0.81,Train/Healthy/Imgclean_426_0.jpg,False
+Soiling_DS_v2_14/train/images/ROI_130_jpg.rf.86d00b204a20998bd4b51f1732a1ec8a.jpg,"0,1",Surface_Obstruction,dfce4fa7a36660811c79b74de7c9e96d,False,16,0.895,Test/Healthy/Clean (139).JPG,True
+Soiling_DS_v2_14/train/images/ROI_130_jpg.rf.9c3b8bf656f96546082fe33bd7b40b14.jpg,"0,1",Surface_Obstruction,05c86b80d371e3d340808edadcc0b7cc,False,16,0.8847,Train/Healthy/Imgclean_429_0.jpg,True
+Soiling_DS_v2_14/train/images/ROI_130_jpg.rf.d0dc9e5f6433c4644b274f6142884bdf.jpg,"0,1",Surface_Obstruction,2c0a5b9143d6238dd3230b7ae695b307,False,16,0.912,Train/Surface_Obstruction/Imgdirty_707_1.jpg,True
+Soiling_DS_v2_14/train/images/ROI_131_jpg.rf.67b5fd12436e2b581102f67342cb0d12.jpg,"0,1",Surface_Obstruction,ccf1c58821cc05f9b748cbb90cce49b4,False,14,0.8664,Train/Surface_Obstruction/Imgdirty_635_1.jpg,True
+Soiling_DS_v2_14/train/images/ROI_131_jpg.rf.7c4016d7eaa1abc99ef7734e8151b172.jpg,"0,1",Surface_Obstruction,9f95b8a0c05a50ed7e3b46ac492f67b5,False,8,0.8632,Train/Surface_Obstruction/Imgdirty_635_1.jpg,True
+Soiling_DS_v2_14/train/images/ROI_131_jpg.rf.7d8a55b5602911ff98f4f5abe56b6d76.jpg,"0,1",Surface_Obstruction,5d33df6ec73424e3f659ce26a4b92941,False,16,0.776,Train/Healthy/Imgclean_428_0.jpg,False
+Soiling_DS_v2_14/train/images/ROI_132_jpg.rf.0e2d299809f798edaf5120f87b79e6b3.jpg,"0,1",Surface_Obstruction,570ed37370ba21cf845c43700275da59,False,16,0.8524,Train/Healthy/Imgclean_428_0.jpg,True
+Soiling_DS_v2_14/train/images/ROI_132_jpg.rf.1d617bac0b51c57be1c99bf478a3e3c1.jpg,"0,1",Surface_Obstruction,4d4d0399e4d577c55003a9ea0d4c4b04,False,18,0.9119,Test/Healthy/Clean (139).JPG,True
+Soiling_DS_v2_14/train/images/ROI_132_jpg.rf.c3799dc59c733e940c512c8cc9b22571.jpg,"0,1",Surface_Obstruction,dc5331cb095876c8b45e6871bb2c7098,False,14,0.9018,Valid/Surface_Obstruction/Bird (1)-bb.jpg,True
+Soiling_DS_v2_14/train/images/ROI_143_jpg.rf.2323663ff76884ed12f0fb44098d2c6c.jpg,"0,1",Surface_Obstruction,89a9fbb89ae126baeee4ebe7b1eb8bbb,False,14,0.7851,Train/Healthy/Imgclean_426_0.jpg,False
+Soiling_DS_v2_14/train/images/ROI_143_jpg.rf.27e8fa252ec3adf6e01a528d55fef1be.jpg,"0,1",Surface_Obstruction,45a403f42083c6f5d65c6fbd82b0f39d,False,18,0.9083,Test/Healthy/Clean (139).JPG,True
+Soiling_DS_v2_14/train/images/ROI_143_jpg.rf.c4160a1b19bf7ce6ddca006aff20cfe1.jpg,"0,1",Surface_Obstruction,45a403f42083c6f5d65c6fbd82b0f39d,False,18,0.9083,Test/Healthy/Clean (139).JPG,True
+Soiling_DS_v2_14/train/images/ROI_146_jpg.rf.7bd4f6e9b9cc9824f8d08040acab083b.jpg,"0,1",Surface_Obstruction,4330d7804c1bf7360fccf40749fe3bf0,False,18,0.906,Train/Structural_Fault/Physical (147).jpg,True
+Soiling_DS_v2_14/train/images/ROI_146_jpg.rf.fe23964af02ca221b1870115d0842528.jpg,"0,1",Surface_Obstruction,56f5a19ea8fb9c2edf16c291af596011,False,18,0.9054,Test/Healthy/Clean (137).jpg,True
+Soiling_DS_v2_14/train/images/ROI_147_jpg.rf.0ebd598ace2caaa5f0d1cfb66d197494.jpg,0,Surface_Obstruction,d639a0ce36176b26733360f180ee23ca,False,14,0.6617,Train/Electrical_Fault/Electrical (147).jpg,False
+Soiling_DS_v2_14/train/images/ROI_147_jpg.rf.27ab63c8af0c0ddfe8ae04719473d40c.jpg,0,Surface_Obstruction,24c0ec1c0928dd7153eddb676c4492d3,False,18,0.8398,Train/Structural_Fault/Physical (145).jpg,False
+Soiling_DS_v2_14/train/images/ROI_147_jpg.rf.91de923ac5919087f2a6a40c08705536.jpg,0,Surface_Obstruction,7708c485cffe6f447036b7389e4e4402,False,16,0.8282,Train/Surface_Obstruction/Imgdirty_686_1.jpg,False
+Soiling_DS_v2_14/train/images/ROI_149_jpg.rf.32a51b7395df0779f8b137eb163ca1c3.jpg,0,Surface_Obstruction,e3ce101f6eb890dbf5e4a456bd5575d6,False,16,0.7666,Train/Healthy/Imgclean_73_0.jpg,False
+Soiling_DS_v2_14/train/images/ROI_149_jpg.rf.97091c9e3d2dec66b51edda5fbcb7010.jpg,0,Surface_Obstruction,2729ea2001d37b1690e198433b6185e1,False,14,0.7595,Train/Electrical_Fault/Electrical (148).jpg,False
+Soiling_DS_v2_14/train/images/ROI_149_jpg.rf.b5d6f6a00cc4800b1c5a95859b821283.jpg,0,Surface_Obstruction,86c689042edca37d29a5a3508e942f1f,False,16,0.7566,Train/Healthy/Imgclean_73_0.jpg,False
+Soiling_DS_v2_14/train/images/ROI_152_jpg.rf.daafa84720396a1d0e8c98746d423e98.jpg,"0,1",Surface_Obstruction,96411a3af58fa70bdd457df7e4a31070,False,18,0.9083,Train/Surface_Obstruction/Imgdirty_872_1.jpg,True
+Soiling_DS_v2_14/train/images/ROI_152_jpg.rf.eb9bc5ab54d103e73fe58c41ed402d2a.jpg,"0,1",Surface_Obstruction,96411a3af58fa70bdd457df7e4a31070,False,18,0.9083,Train/Surface_Obstruction/Imgdirty_872_1.jpg,True
+Soiling_DS_v2_14/train/images/ROI_153_jpg.rf.36fcd28a364e8682c92551fde83f3456.jpg,"0,1",Surface_Obstruction,dd13ae5b846ec3cb7c6dd12a32573232,False,18,0.7933,Train/Healthy/Imgclean_428_0.jpg,False
+Soiling_DS_v2_14/train/images/ROI_153_jpg.rf.9f2bee6ed20c01b33a65b9710d70f605.jpg,"0,1",Surface_Obstruction,8baa3aa0464679f24e45356c48d04eca,False,12,0.87,Test/Healthy/Clean (139).JPG,True
+Soiling_DS_v2_14/train/images/ROI_153_jpg.rf.ea5583abb06c5066bfda2c5788e4d2f8.jpg,"0,1",Surface_Obstruction,55328fdd58477e62d50c86075663205e,False,16,0.7835,Train/Healthy/Imgclean_426_0.jpg,False
+Soiling_DS_v2_14/train/images/ROI_155_jpg.rf.46e3544f8e07350103baf9acc68013e9.jpg,"0,1",Surface_Obstruction,4d6ffeb21bfa180e0115fc59a34e2d29,False,18,0.7695,Train/Surface_Obstruction/Dust (20)-D.jpg,False
+Soiling_DS_v2_14/train/images/ROI_155_jpg.rf.c59216cb0fcd4669052f3819b9d58fb8.jpg,"0,1",Surface_Obstruction,cc1b3060fefccd986e80087ca1eaa25b,False,18,0.9131,Train/Surface_Obstruction/Imgdirty_872_1.jpg,True
+Soiling_DS_v2_14/train/images/ROI_155_jpg.rf.da28866b3ba3c7a9f123c74993ea0f35.jpg,"0,1",Surface_Obstruction,aee46ec71e89ed1cc2d75e328f7520d3,False,14,0.9207,Train/Surface_Obstruction/Imgdirty_872_1.jpg,True
+Soiling_DS_v2_14/train/images/ROI_169_jpg.rf.7d43522ba936b1b62faf7dc2e26d6de3.jpg,"0,1",Surface_Obstruction,c9ed7ed4497ec341c99cefb49256978c,False,18,0.8756,Test/Healthy/Clean (156).jpg,True
+Soiling_DS_v2_14/train/images/ROI_169_jpg.rf.800e45eb279758287f196a074537a658.jpg,"0,1",Surface_Obstruction,d958d91a94697592097a485f58aed0c2,False,16,0.9327,Test/Healthy/Clean (166).jpg,True
+Soiling_DS_v2_14/train/images/ROI_169_jpg.rf.d1f36bf1a2af56bea6382e3a7a52d6b7.jpg,"0,1",Surface_Obstruction,d958d91a94697592097a485f58aed0c2,False,16,0.9327,Test/Healthy/Clean (166).jpg,True
+Soiling_DS_v2_14/train/images/ROI_16_jpg.rf.7c159aa714dc3aebfd8f4d82e769bf7d.jpg,"0,1",Surface_Obstruction,fe76126e8b0cf1f970570a7f66ce4d15,False,10,0.8843,Train/Healthy/Imgclean_428_0.jpg,True
+Soiling_DS_v2_14/train/images/ROI_16_jpg.rf.cbd1c2e283393bebdd8217b01d8ad282.jpg,"0,1",Surface_Obstruction,66401b40ddbfd411c8b7f73cf54e3ce4,False,16,0.8827,Train/Healthy/Imgclean_428_0.jpg,True
+Soiling_DS_v2_14/train/images/ROI_16_jpg.rf.eb6dbe1b4d7efe4444ac8f1ad07e3c57.jpg,"0,1",Surface_Obstruction,66401b40ddbfd411c8b7f73cf54e3ce4,False,16,0.8827,Train/Healthy/Imgclean_428_0.jpg,True
+Soiling_DS_v2_14/train/images/ROI_170_jpg.rf.bc049e8144c32b079d2c3b08b7ba6173.jpg,"0,1",Surface_Obstruction,f8d4de8e4740e7a3f961d26b605c95fe,False,12,0.824,Train/Healthy/Imgclean_428_0.jpg,True
+Soiling_DS_v2_14/train/images/ROI_170_jpg.rf.c0625bc0df22e06e76a078627f925773.jpg,"0,1",Surface_Obstruction,e0f1df1d0ecc0d01b3e218bc89ae429e,False,14,0.8983,Valid/Surface_Obstruction/Bird (18)-bb.JPG,True
+Soiling_DS_v2_14/train/images/ROI_170_jpg.rf.d13804b3c5ac01b7f5e9615fd0c2c10c.jpg,"0,1",Surface_Obstruction,19ecff2871716cd64f8355b7aa645726,False,12,0.8984,Valid/Surface_Obstruction/Bird (18)-bb.JPG,True
+Soiling_DS_v2_14/train/images/ROI_171_jpg.rf.031b4106948ad796add435f60c3180ad.jpg,"0,1",Surface_Obstruction,a378e7e318f3314bad70d7bf585e54a7,False,16,0.8325,Train/Healthy/Imgclean_428_0.jpg,False
+Soiling_DS_v2_14/train/images/ROI_171_jpg.rf.3261f76e7d7c86fc578ba97765528435.jpg,"0,1",Surface_Obstruction,c522bf5958b0607b5dffa23757e57954,False,14,0.9159,Test/Healthy/Clean (139).JPG,True
+Soiling_DS_v2_14/train/images/ROI_171_jpg.rf.72d6f46638fcfcc7828f1ab8ee8c74a8.jpg,"0,1",Surface_Obstruction,2f4318060356fa4a64f7b3c7dace75cd,False,12,0.9158,Test/Surface_Obstruction/Bird (137).JPG,True
+Soiling_DS_v2_14/train/images/ROI_174_jpg.rf.410f5f564c678aaeca601ac4775dacf1.jpg,"0,1",Surface_Obstruction,5ba7ec04baae6f5efb328fc41c5bcacc,False,18,0.8061,Valid/Structural_Fault/Physical (3)-P.jpg,False
+Soiling_DS_v2_14/train/images/ROI_174_jpg.rf.4fe047069eebd3f95ec6170b461a1706.jpg,"0,1",Surface_Obstruction,fb9d580f7a830b0d15b583c793f4d7b0,False,16,0.9075,Valid/Surface_Obstruction/Bird (18)-bb.JPG,True
+Soiling_DS_v2_14/train/images/ROI_17_jpg.rf.bc7fc268d58fbd6b1498a49addd60dc5.jpg,"0,1",Surface_Obstruction,74fd3d565c634c0c5c76e9a597d72bbe,False,16,0.8356,Train/Healthy/Imgclean_428_0.jpg,False
+Soiling_DS_v2_14/train/images/ROI_17_jpg.rf.d1fb8fc1ce748bc0f140d2cf0a5e4e92.jpg,"0,1",Surface_Obstruction,66ba67cbbd73e4b0105818ae879f425f,False,16,0.8867,Train/Healthy/Imgclean_428_0.jpg,True
+Soiling_DS_v2_14/train/images/ROI_17_jpg.rf.ed3ae1aa5460dd62f0eddd0c13b249d0.jpg,"0,1",Surface_Obstruction,9dcadcdf0a0d08c2033c2ce3eafd1eed,False,16,0.8815,Train/Healthy/Imgclean_428_0.jpg,True
+Soiling_DS_v2_14/train/images/ROI_18_jpg.rf.0e0a96ca89d3e0b8f9b04568700b866e.jpg,"0,1",Surface_Obstruction,3ab1c813981ea3e633419b566cef18b4,False,14,0.8802,Train/Structural_Fault/Physical (77).jpg,True
+Soiling_DS_v2_14/train/images/ROI_18_jpg.rf.fabf814ab59a5bbab7b56ee85d2ae6c6.jpg,"0,1",Surface_Obstruction,5bdb4e9fb31adc2221d07b9d50e0fd53,False,16,0.7697,Train/Healthy/Imgclean_428_0.jpg,False
+Soiling_DS_v2_14/train/images/ROI_18_jpg.rf.fe0a7b57a1ea30f94e458dc7a28784d8.jpg,"0,1",Surface_Obstruction,3ab1c813981ea3e633419b566cef18b4,False,14,0.8802,Train/Structural_Fault/Physical (77).jpg,True
+Soiling_DS_v2_14/train/images/ROI_20_jpg.rf.932d81b666670de032b7c88f3677937e.jpg,"0,1",Surface_Obstruction,51b7cf2e4172c7fe7081b0f2d951c0e2,False,14,0.8741,Train/Healthy/Imgclean_428_0.jpg,True
+Soiling_DS_v2_14/train/images/ROI_20_jpg.rf.cd10d69ee3c0aca0915c9e75d131aefc.jpg,"0,1",Surface_Obstruction,ac4e8c940587778e2a2489a9b0e92a65,False,12,0.8746,Valid/Structural_Fault/Physical (3)-P.jpg,True
+Soiling_DS_v2_14/train/images/ROI_21_jpg.rf.841cb3a1b8f9321f96fdb3bc9ee6dd92.jpg,"0,1",Surface_Obstruction,994161ca0dcfc8a5228e90cc19f63675,False,16,0.7832,Train/Healthy/Imgclean_426_0.jpg,False
+Soiling_DS_v2_14/train/images/ROI_21_jpg.rf.fac0e56229355a8fc0ab283ed2fd8e6c.jpg,"0,1",Surface_Obstruction,59f1dd9d2c01933e5fd04d9d2a1d3d19,False,16,0.8596,Train/Healthy/Imgclean_428_0.jpg,True
+Soiling_DS_v2_14/train/images/ROI_22_jpg.rf.0f38599cda15451304bb844cc2168f27.jpg,"0,1",Surface_Obstruction,8c5b947b68039455b625e9c6936cafdd,False,16,0.8447,Train/Healthy/Imgclean_426_0.jpg,False
+Soiling_DS_v2_14/train/images/ROI_22_jpg.rf.85147b61adc65a282dcadc318f63c858.jpg,"0,1",Surface_Obstruction,15a42aa3712bd198e032b5ff05f0ca69,False,18,0.8417,Train/Healthy/Imgclean_501_0.jpg,False
+Soiling_DS_v2_14/train/images/ROI_22_jpg.rf.bbcc73f513fef4cb17a83ca4e93d8ba5.jpg,"0,1",Surface_Obstruction,df42058fb50a83d1b59906fc53c36edf,False,16,0.8557,Train/Healthy/Imgclean_501_0.jpg,True
+Soiling_DS_v2_14/train/images/ROI_23_jpg.rf.135776a4a6d833f8845e79275fc50f25.jpg,"0,1",Surface_Obstruction,2b72b0838d986ee732d05d05f6b966e9,False,16,0.8427,Valid/Structural_Fault/Physical (3)-P.jpg,False
+Soiling_DS_v2_14/train/images/ROI_23_jpg.rf.b7a2ac6dc1aa60db36f0ffc68d8e62b7.jpg,"0,1",Surface_Obstruction,167bf2edbae8d56ff3c6486a7e9c66ef,False,18,0.8261,Train/Healthy/Imgclean_426_0.jpg,False
+Soiling_DS_v2_14/train/images/ROI_23_jpg.rf.bc8bcd3c01c90e06c8503847aa854105.jpg,"0,1",Surface_Obstruction,ed0b90dc0d5113bd46c15be482d8b051,False,12,0.8577,Train/Healthy/Imgclean_426_0.jpg,True
+Soiling_DS_v2_14/train/images/ROI_25_jpg.rf.cac31869b8c4a1b2f510cefc93564af0.jpg,"0,1",Surface_Obstruction,4a0ff720c808d09d88238e5aeff22c04,False,14,0.8265,Train/Healthy/Imgclean_426_0.jpg,False
+Soiling_DS_v2_14/train/images/ROI_25_jpg.rf.e378f950b672f6beb9c17933b035caaa.jpg,"0,1",Surface_Obstruction,63b671810c3261d4ff81cc1456cf2e52,False,14,0.7877,Valid/Structural_Fault/Physical (3)-P.jpg,False
+Soiling_DS_v2_14/train/images/ROI_28_jpg.rf.2b9dc464ec2c3775c6045c3ded4fd060.jpg,"0,1",Surface_Obstruction,52b2bf2594d49bc36beb4a23bbb00e30,False,16,0.8042,Train/Healthy/Imgclean_426_0.jpg,False
+Soiling_DS_v2_14/train/images/ROI_28_jpg.rf.72e511d44b72af8357d2f66dc2805cc1.jpg,"0,1",Surface_Obstruction,52b2bf2594d49bc36beb4a23bbb00e30,False,16,0.8042,Train/Healthy/Imgclean_426_0.jpg,False
+Soiling_DS_v2_14/train/images/ROI_28_jpg.rf.fb9f5f6ea00cdad11e335c6b1bac0de8.jpg,"0,1",Surface_Obstruction,2ebc2354bca47243848a5541142491a3,False,14,0.8289,Train/Healthy/Imgclean_426_0.jpg,False
+Soiling_DS_v2_14/train/images/ROI_29_jpg.rf.5d654fa8598efb70ea54532fcf7b9e8c.jpg,"0,1",Surface_Obstruction,d24df18d80aef45a70c89212e175c883,False,16,0.8923,Train/Healthy/Imgclean_428_0.jpg,True
+Soiling_DS_v2_14/train/images/ROI_29_jpg.rf.91105807e406a18d685a7f07c0010a69.jpg,"0,1",Surface_Obstruction,d24df18d80aef45a70c89212e175c883,False,16,0.8923,Train/Healthy/Imgclean_428_0.jpg,True
+Soiling_DS_v2_14/train/images/ROI_29_jpg.rf.9cb30d408a32c1382cc058a8c824bed7.jpg,"0,1",Surface_Obstruction,9d3fa6efca48d557ab2c2fb554e21ccb,False,14,0.8757,Train/Healthy/Imgclean_428_0.jpg,True
+Soiling_DS_v2_14/train/images/ROI_30_jpg.rf.92e4c86b3ac632cbadc77b3e2e690682.jpg,0,Surface_Obstruction,f4efc81868e92b3045628928ed3c735f,False,16,0.856,Train/Healthy/Imgclean_428_0.jpg,True
+Soiling_DS_v2_14/train/images/ROI_30_jpg.rf.ac21d840ccf32ca12b4aa7b1899e9657.jpg,0,Surface_Obstruction,2b9a980f546123c171fd5c716319e60e,False,16,0.8777,Train/Healthy/Imgclean_428_0.jpg,True
+Soiling_DS_v2_14/train/images/ROI_30_jpg.rf.b70ec0933d6e04ea03c0f5eaf07aa861.jpg,0,Surface_Obstruction,2b9a980f546123c171fd5c716319e60e,False,16,0.8777,Train/Healthy/Imgclean_428_0.jpg,True
+Soiling_DS_v2_14/train/images/ROI_31_jpg.rf.07d14f58d2fc1e7dbd211a0c2e10e577.jpg,"0,1",Surface_Obstruction,5de9f9f5a8422de6d9ed8f5b25d562fb,False,12,0.6615,Train/Healthy/Imgclean_428_0.jpg,True
+Soiling_DS_v2_14/train/images/ROI_31_jpg.rf.121ffc7e9143c6a2bf3dea67beed47ff.jpg,"0,1",Surface_Obstruction,7483241917a8f1231e34ce04bcf5cf7f,False,14,0.6914,Valid/Structural_Fault/Physical (3)-P.jpg,False
+Soiling_DS_v2_14/train/images/ROI_31_jpg.rf.edb4b58e098c091946035cd1246748b8.jpg,"0,1",Surface_Obstruction,7483241917a8f1231e34ce04bcf5cf7f,False,14,0.6914,Valid/Structural_Fault/Physical (3)-P.jpg,False
+Soiling_DS_v2_14/train/images/ROI_37_jpg.rf.572fae4b19c67755b4bb7204ccd07829.jpg,0,Surface_Obstruction,d29dd66cf87641584a4d851492367414,False,14,0.7239,Train/Electrical_Fault/Electrical (22).jpg,False
+Soiling_DS_v2_14/train/images/ROI_37_jpg.rf.b50e4be0128365de55504251f1092389.jpg,0,Surface_Obstruction,d29dd66cf87641584a4d851492367414,False,14,0.7239,Train/Electrical_Fault/Electrical (22).jpg,False
+Soiling_DS_v2_14/train/images/ROI_37_jpg.rf.eeddad0fbdc45baacda0e6b412acfc77.jpg,0,Surface_Obstruction,1ce6ea72dc403efdd78c69f8a1887509,False,16,0.7315,Valid/Structural_Fault/Physical (3)-P.jpg,False
+Soiling_DS_v2_14/train/images/ROI_38_jpg.rf.15260833d73243dfd6bb81bd8f82a9e6.jpg,0,Surface_Obstruction,8edc694d350cc7299c82b2783dad189e,False,14,0.7619,Valid/Structural_Fault/Physical (3)-P.jpg,False
+Soiling_DS_v2_14/train/images/ROI_38_jpg.rf.2ff99cc6faa4aa3df9836efc20d24157.jpg,0,Surface_Obstruction,8edc694d350cc7299c82b2783dad189e,False,14,0.7619,Valid/Structural_Fault/Physical (3)-P.jpg,False
+Soiling_DS_v2_14/train/images/ROI_38_jpg.rf.92f36962254f2d9f8253b9236c9b04dc.jpg,0,Surface_Obstruction,886def4cdea1910dbe7b54c523f00d49,False,16,0.7465,Valid/Structural_Fault/Physical (3)-P.jpg,False
+Soiling_DS_v2_14/train/images/ROI_39_jpg.rf.1e3d05de8549ad6f2a8a787534c33356.jpg,0,Surface_Obstruction,18aa2c88188867413751eddb91bfb646,False,14,0.7541,Train/Healthy/Imgclean_426_0.jpg,False
+Soiling_DS_v2_14/train/images/ROI_39_jpg.rf.a77ced26e5fb1732b592f9dfcd63c3d8.jpg,0,Surface_Obstruction,d2fe50519e0f1a6de6a277b46c3e1273,False,16,0.88,Train/Healthy/Imgclean_428_0.jpg,True
+Soiling_DS_v2_14/train/images/ROI_40_jpg.rf.3497c5ef3fa5f4acafa7419f70f3c0ca.jpg,1,Surface_Obstruction,2556325e1afce9129a0accc51abc12d9,False,14,0.8461,Train/Healthy/Imgclean_426_0.jpg,False
+Soiling_DS_v2_14/train/images/ROI_40_jpg.rf.47b7c1e2b7b1fa80bf6730fb5f1aa144.jpg,1,Surface_Obstruction,39db2721b2fa7e3adf696f0af0c2c5f2,False,14,0.8535,Train/Healthy/Imgclean_426_0.jpg,True
+Soiling_DS_v2_14/train/images/ROI_40_jpg.rf.6a0926ba66dd86d8b71e985277ad46f1.jpg,1,Surface_Obstruction,39db2721b2fa7e3adf696f0af0c2c5f2,False,14,0.8535,Train/Healthy/Imgclean_426_0.jpg,True
+Soiling_DS_v2_14/train/images/ROI_44_jpg.rf.60ff5f2233d671bc8f38031240a833e0.jpg,"0,1",Surface_Obstruction,c572098815ca284f876770c73089296b,False,16,0.7698,Train/Healthy/Imgclean_428_0.jpg,False
+Soiling_DS_v2_14/train/images/ROI_44_jpg.rf.a9e3bb3d4606790ab3a60131e10383e6.jpg,"0,1",Surface_Obstruction,4bcf046d8c60f469bb8f3c4aee3d3850,False,18,0.6859,Train/Healthy/Imgclean_426_0.jpg,False
+Soiling_DS_v2_14/train/images/ROI_44_jpg.rf.bbfbe6d9f8e2d29d43bd1829c91a6fe0.jpg,"0,1",Surface_Obstruction,4ba90d217eabf22c0a37261e4486189f,False,16,0.7049,Train/Healthy/Imgclean_428_0.jpg,False
+Soiling_DS_v2_14/train/images/ROI_47_jpg.rf.1f0d09bc8ec42b77484417b0a99ad059.jpg,"0,1",Surface_Obstruction,6b779607b266bd9cebe75e606d8e90a2,False,12,0.8542,Train/Healthy/Imgclean_428_0.jpg,True
+Soiling_DS_v2_14/train/images/ROI_47_jpg.rf.cd3d2c24387a09e5ccac55a7bd161502.jpg,"0,1",Surface_Obstruction,86ff0789a6035f60c637196374a473a9,False,12,0.8524,Train/Surface_Obstruction/Imgdirty_707_1.jpg,True
+Soiling_DS_v2_14/train/images/ROI_48_jpg.rf.220d50dc25297b38af09a6fa8df8ad94.jpg,"0,1",Surface_Obstruction,2e81d89a6f2dd1b7c7abd03ae3e06803,False,14,0.8138,Train/Healthy/Imgclean_428_0.jpg,False
+Soiling_DS_v2_14/train/images/ROI_48_jpg.rf.4ba474969b0098960e5f1ae9c85cf985.jpg,"0,1",Surface_Obstruction,2e81d89a6f2dd1b7c7abd03ae3e06803,False,14,0.8138,Train/Healthy/Imgclean_428_0.jpg,False
+Soiling_DS_v2_14/train/images/ROI_48_jpg.rf.61872622460b474b010a32a409d398ca.jpg,"0,1",Surface_Obstruction,8e6bb618763283f2fba7e82b78071043,False,14,0.8783,Train/Surface_Obstruction/Imgdirty_707_1.jpg,True
+Soiling_DS_v2_14/train/images/ROI_49_jpg.rf.070f0c4c63727eccc192668cdff05799.jpg,"0,1",Surface_Obstruction,9b6866f9bf14da29ab65b1140c373f18,False,16,0.845,Valid/Structural_Fault/Physical (3)-P.jpg,False
+Soiling_DS_v2_14/train/images/ROI_49_jpg.rf.07d8f3f79a8bf87dc882ee297762ec69.jpg,"0,1",Surface_Obstruction,58b1a2de1d783718552869054b81f0fd,False,16,0.8888,Train/Healthy/Imgclean_428_0.jpg,True
+Soiling_DS_v2_14/train/images/ROI_49_jpg.rf.d63d0d94975a15990b6db963a5990c29.jpg,"0,1",Surface_Obstruction,8538e2567afb23fcf4339474c4c9a8b4,False,12,0.8475,Train/Healthy/Imgclean_428_0.jpg,True
+Soiling_DS_v2_14/train/images/ROI_51_jpg.rf.531a1e6b34a1da1968c72313b7454d12.jpg,"0,1",Surface_Obstruction,2ce2da99c04381fcb0e82fdbaaa92794,False,14,0.7896,Train/Healthy/Imgclean_421_0.jpg,False
+Soiling_DS_v2_14/train/images/ROI_51_jpg.rf.77a1a05cb5cecd0d6922e9495f54ed20.jpg,"0,1",Surface_Obstruction,2ce2da99c04381fcb0e82fdbaaa92794,False,14,0.7896,Train/Healthy/Imgclean_421_0.jpg,False
+Soiling_DS_v2_14/train/images/ROI_51_jpg.rf.f9f957cd02a899e54e60bdc8f9bb9616.jpg,"0,1",Surface_Obstruction,cbc90c95c692ec0bb337b17f6175cc8a,False,14,0.7924,Train/Healthy/Imgclean_421_0.jpg,False
+Soiling_DS_v2_14/train/images/ROI_52_jpg.rf.d54787c658a196a7b4ffe4d04cf6c9fb.jpg,0,Surface_Obstruction,11212ae96a3eae7a6e8b00f807013bdf,False,16,0.7188,Train/Electrical_Fault/Electrical (37).jpg,False
+Soiling_DS_v2_14/train/images/ROI_52_jpg.rf.daf9af5f1b8461fc70da2b049e03cce0.jpg,0,Surface_Obstruction,1cf0982acd60cdc5d276a82febe1cd0e,False,14,0.7054,Test/Surface_Obstruction/Bird (136).JPG,False
+Soiling_DS_v2_14/train/images/ROI_55_jpg.rf.4a4714b09f3b4cf4a664353552a767a2.jpg,"0,1",Surface_Obstruction,4600aa1f5799413d5f3317fb6527e242,False,14,0.8753,Train/Healthy/Imgclean_428_0.jpg,True
+Soiling_DS_v2_14/train/images/ROI_55_jpg.rf.5dcc6302357002fc16a1c91c3154e7ae.jpg,"0,1",Surface_Obstruction,586d4190a293775bae59c3d7778a59e5,False,12,0.893,Test/Healthy/Clean (139).JPG,True
+Soiling_DS_v2_14/train/images/ROI_55_jpg.rf.e24f368eaa7f25315a3cf20154a753ba.jpg,"0,1",Surface_Obstruction,586d4190a293775bae59c3d7778a59e5,False,12,0.893,Test/Healthy/Clean (139).JPG,True
+Soiling_DS_v2_14/train/images/ROI_56_jpg.rf.77b3fab3f14326e7410d5a8ef64ded91.jpg,0,Surface_Obstruction,c61bde6b03586e45035f3e4cf2ae2be5,False,14,0.7912,Train/Healthy/Imgclean_426_0.jpg,False
+Soiling_DS_v2_14/train/images/ROI_56_jpg.rf.d22fcc877d46aa9fce92d9177279bb94.jpg,0,Surface_Obstruction,c61bde6b03586e45035f3e4cf2ae2be5,False,14,0.7912,Train/Healthy/Imgclean_426_0.jpg,False
+Soiling_DS_v2_14/train/images/ROI_58_jpg.rf.07ecb2e3cf2fd654b9b629f0a39a5c11.jpg,"0,1",Surface_Obstruction,2cade063c96d5b92a7cec188cadc8177,False,14,0.8048,Train/Healthy/Imgclean_428_0.jpg,False
+Soiling_DS_v2_14/train/images/ROI_58_jpg.rf.128f2905f6e3e878d4b81effd3e00d72.jpg,"0,1",Surface_Obstruction,2cade063c96d5b92a7cec188cadc8177,False,14,0.8048,Train/Healthy/Imgclean_428_0.jpg,False
+Soiling_DS_v2_14/train/images/ROI_58_jpg.rf.e1c58e6c7e9e84e5217b335352b7987c.jpg,"0,1",Surface_Obstruction,a1d287510a0480ae00e3d384272e21b9,False,14,0.726,Train/Electrical_Fault/Electrical (140).jpg,False
+Soiling_DS_v2_14/train/images/ROI_60_jpg.rf.5dc6df137a846630580b86de19aff7eb.jpg,"0,1",Surface_Obstruction,1ab6f557da42c87d26ea79d565118387,False,10,0.8823,Train/Surface_Obstruction/Imgdirty_707_1.jpg,True
+Soiling_DS_v2_14/train/images/ROI_60_jpg.rf.780ae953e9c5389b4672d5128bdf275e.jpg,"0,1",Surface_Obstruction,c671712cf08b3570acbf9ad95fbf6a7e,False,14,0.8543,Train/Surface_Obstruction/Imgdirty_707_1.jpg,True
+Soiling_DS_v2_14/train/images/ROI_60_jpg.rf.903b2d8456895adff91851c672fa60b1.jpg,"0,1",Surface_Obstruction,1ab6f557da42c87d26ea79d565118387,False,10,0.8823,Train/Surface_Obstruction/Imgdirty_707_1.jpg,True
+Soiling_DS_v2_14/train/images/ROI_61_jpg.rf.2a6534cdc376afbc4064085a011c46a7.jpg,"0,1",Surface_Obstruction,78055f1bb42754b9008e01c019c21063,False,16,0.876,Train/Healthy/Imgclean_429_0.jpg,True
+Soiling_DS_v2_14/train/images/ROI_61_jpg.rf.415c2f7057a6a66eb3edb4419639fdc4.jpg,"0,1",Surface_Obstruction,4aad680085bb47cc98829f655e394ace,False,16,0.8617,Train/Surface_Obstruction/Imgdirty_707_1.jpg,True
+Soiling_DS_v2_14/train/images/ROI_62_jpg.rf.10cc6ab0f61a86d1cea80e4232bfe3f5.jpg,"0,1",Surface_Obstruction,44e3251da29d1e90e0b6a68646f6d222,False,16,0.7776,Train/Healthy/Imgclean_501_0.jpg,False
+Soiling_DS_v2_14/train/images/ROI_62_jpg.rf.7d4125f2436dee54228fd8539d092628.jpg,"0,1",Surface_Obstruction,f9481e826c480c676f8152304bd97051,False,14,0.8209,Train/Healthy/Imgclean_426_0.jpg,False
+Soiling_DS_v2_14/train/images/ROI_62_jpg.rf.fd5a4417399398e89f30d5bbe72ba80c.jpg,"0,1",Surface_Obstruction,44e3251da29d1e90e0b6a68646f6d222,False,16,0.7776,Train/Healthy/Imgclean_501_0.jpg,False
+Soiling_DS_v2_14/train/images/ROI_63_jpg.rf.0bca9a18f3172a86af9fe1df035c089d.jpg,"0,1",Surface_Obstruction,e8752ab211605bcabe93e97f8ce9c85e,False,14,0.9031,Train/Healthy/Imgclean_428_0.jpg,True
+Soiling_DS_v2_14/train/images/ROI_63_jpg.rf.4052fbec862a7880bb848be3edf2fbfd.jpg,"0,1",Surface_Obstruction,cde25a659ba3afc53a8be78d1eb5d222,False,16,0.8379,Train/Healthy/Imgclean_428_0.jpg,False
+Soiling_DS_v2_14/train/images/ROI_63_jpg.rf.c9cda8f23b5789a5e67da32029d15d7d.jpg,"0,1",Surface_Obstruction,000ea50ebed607e093419c29bf8064a4,False,14,0.8231,Train/Healthy/Imgclean_428_0.jpg,False
+Soiling_DS_v2_14/train/images/ROI_64_jpg.rf.064780fa4179839a301c60378caf62ca.jpg,0,Surface_Obstruction,0227ae73018c632ae88ce2c2defd205d,False,16,0.8334,Train/Healthy/Imgclean_428_0.jpg,False
+Soiling_DS_v2_14/train/images/ROI_64_jpg.rf.81a728c7ae1e7519a55102a5c497adb5.jpg,0,Surface_Obstruction,14e563a12fda3b93ad39045acdafb4e9,False,14,0.8328,Train/Healthy/Imgclean_426_0.jpg,False
+Soiling_DS_v2_14/train/images/ROI_66_jpg.rf.3db51fb82b2901d78e602861dadd2a5c.jpg,"0,1",Surface_Obstruction,631194682019d59d862583d35275e62b,False,16,0.8353,Train/Surface_Obstruction/Imgdirty_707_1.jpg,False
+Soiling_DS_v2_14/train/images/ROI_66_jpg.rf.a194f191e089a2a4a567f8bc4c3d5212.jpg,"0,1",Surface_Obstruction,631194682019d59d862583d35275e62b,False,16,0.8353,Train/Surface_Obstruction/Imgdirty_707_1.jpg,False
+Soiling_DS_v2_14/train/images/ROI_66_jpg.rf.b1423a7455bd54a53d3ecbf69ce1dbd0.jpg,"0,1",Surface_Obstruction,e50ed7097325453482072dbe942e0c47,False,18,0.8346,Train/Healthy/Imgclean_426_0.jpg,False
+Soiling_DS_v2_14/train/images/ROI_67_jpg.rf.273717c5a8081e99ae21c0b868f1c1b2.jpg,1,Surface_Obstruction,318e25b09db72f1e6843e2951da7fe8a,False,14,0.8565,Train/Healthy/Imgclean_426_0.jpg,True
+Soiling_DS_v2_14/train/images/ROI_67_jpg.rf.954d9eb66f2e294cf005decad1c569e8.jpg,1,Surface_Obstruction,318e25b09db72f1e6843e2951da7fe8a,False,14,0.8565,Train/Healthy/Imgclean_426_0.jpg,True
+Soiling_DS_v2_14/train/images/ROI_67_jpg.rf.fe1d05a37241c76d1425f4709b317a2f.jpg,1,Surface_Obstruction,602cfbd7043e1f0174b5ce39bac09ad3,False,12,0.9015,Train/Healthy/Imgclean_421_0.jpg,True
+Soiling_DS_v2_14/train/images/ROI_68_jpg.rf.56aa9f499158ee44da62f7ddc999d663.jpg,"0,1",Surface_Obstruction,4faa5bf88130f4adabec848950d53bf4,False,16,0.8092,Valid/Structural_Fault/Physical (3)-P.jpg,False
+Soiling_DS_v2_14/train/images/ROI_68_jpg.rf.da63206e9837810342c86260bca56521.jpg,"0,1",Surface_Obstruction,b39f38aec0d3f67e565d3dd70dc82f3c,False,16,0.7949,Train/Healthy/Imgclean_426_0.jpg,False
+Soiling_DS_v2_14/train/images/ROI_68_jpg.rf.fa1011748a60d28791255c423ecd4f38.jpg,"0,1",Surface_Obstruction,c03f9126de1864b26fce5566dbd0db9c,False,16,0.8485,Train/Surface_Obstruction/Imgdirty_707_1.jpg,False
+Soiling_DS_v2_14/train/images/ROI_69_jpg.rf.34c3e89e2743910f9cf0453d9d52bcae.jpg,1,Surface_Obstruction,14c47b38a010c71df6bbd7fe71068523,False,16,0.9005,Train/Healthy/Imgclean_426_0.jpg,True
+Soiling_DS_v2_14/train/images/ROI_69_jpg.rf.854ad40284c43c761b3b26db08dd8f9c.jpg,1,Surface_Obstruction,6a9801c814c8163e0ab810f4710f00d0,False,12,0.9062,Train/Healthy/Imgclean_421_0.jpg,True
+Soiling_DS_v2_14/train/images/ROI_69_jpg.rf.abae7c0f1b08399b761f1bf54a643b24.jpg,1,Surface_Obstruction,a038479140ad8a7346efdce266b070fd,False,10,0.8852,Train/Healthy/Imgclean_426_0.jpg,True
+Soiling_DS_v2_14/train/images/ROI_6_jpg.rf.2142fb6e17668c7352d0be3c3c61fd6d.jpg,"0,1",Surface_Obstruction,d31c68f88ec4ae6ec85ffec0ba9d7972,False,16,0.8846,Train/Healthy/Imgclean_428_0.jpg,True
+Soiling_DS_v2_14/train/images/ROI_6_jpg.rf.6466300e41bbd71dc1916ab9792db55d.jpg,"0,1",Surface_Obstruction,d9ef5e353f16c309fa716318dd8626bf,False,16,0.8714,Train/Healthy/Imgclean_428_0.jpg,True
+Soiling_DS_v2_14/train/images/ROI_6_jpg.rf.f2e59e0e7b2ef52edc5349f4dfdec394.jpg,"0,1",Surface_Obstruction,745234a2d2eca81ad490a31cfe025b91,False,16,0.8852,Train/Healthy/Imgclean_428_0.jpg,True
+Soiling_DS_v2_14/train/images/ROI_73_jpg.rf.20c109c73ecda55aef9bbf7879e2f624.jpg,1,Surface_Obstruction,56efb438c72a4e69470eb71156e45579,False,12,0.8545,Train/Healthy/Imgclean_428_0.jpg,True
+Soiling_DS_v2_14/train/images/ROI_73_jpg.rf.4f35c09cfdeb7bb0a4636ae7d7bf1355.jpg,1,Surface_Obstruction,db214581aaae92ffc4eb54368d1dcb9f,False,16,0.8494,Train/Healthy/Imgclean_426_0.jpg,False
+Soiling_DS_v2_14/train/images/ROI_73_jpg.rf.b67ca220b998880335686c116e2c27d7.jpg,1,Surface_Obstruction,56efb438c72a4e69470eb71156e45579,False,12,0.8545,Train/Healthy/Imgclean_428_0.jpg,True
+Soiling_DS_v2_14/train/images/ROI_75_jpg.rf.4302e52e8f284c9a45f615d8af0bd5a6.jpg,1,Surface_Obstruction,ab2f100a76d3edab096772d164e6604f,False,14,0.6284,Train/Electrical_Fault/Electrical (13)-E.jpg,False
+Soiling_DS_v2_14/train/images/ROI_75_jpg.rf.6af330e758390c085f66558e4d050059.jpg,1,Surface_Obstruction,108288f2d764bcb37437280cc0abb43b,False,8,0.6899,Test/Surface_Obstruction/Bird (170).JPG,True
+Soiling_DS_v2_14/train/images/ROI_75_jpg.rf.6f322cb43d3c857943a671b86dce2bd9.jpg,1,Surface_Obstruction,79541a7849d71755dc85f0474ac684c7,False,14,0.7779,Test/Surface_Obstruction/Bird (170).JPG,False
+Soiling_DS_v2_14/train/images/ROI_76_jpg.rf.74356d58f07a645ec8447aea84f957c9.jpg,"0,1",Surface_Obstruction,1cb8f1afb1dcf8da27b2a5e5a556022b,False,14,0.7666,Train/Surface_Obstruction/Imgdirty_43_1.jpg,False
+Soiling_DS_v2_14/train/images/ROI_76_jpg.rf.753b24c8bc5ab309a449e6f389856ed1.jpg,"0,1",Surface_Obstruction,8105b9d8f3357586ef5e80f31499ebf6,False,16,0.7506,Train/Healthy/Imgclean_428_0.jpg,False
+Soiling_DS_v2_14/train/images/ROI_76_jpg.rf.cdeb6803754b46b3eefdae5bbbfede4e.jpg,"0,1",Surface_Obstruction,145fa6d530625a37cc69b01b4dca0bdc,False,10,0.7676,Train/Surface_Obstruction/Imgdirty_43_1.jpg,True
+Soiling_DS_v2_14/train/images/ROI_78_jpg.rf.1e265bac9e93e5e11e0f241685c80d21.jpg,0,Surface_Obstruction,3457a90cf9d9a37387a6e1d3185d4acf,False,14,0.6365,Train/Healthy/Imgclean_501_0.jpg,False
+Soiling_DS_v2_14/train/images/ROI_78_jpg.rf.33f0ecc268b3c3223b89b6edd64fed89.jpg,0,Surface_Obstruction,26c3c7ce772726a0a3f4b43b902495f8,False,16,0.8427,Train/Surface_Obstruction/Imgdirty_43_1.jpg,False
+Soiling_DS_v2_14/train/images/ROI_79_jpg.rf.7f1ead7f10d14a6877ad82a4713a3420.jpg,0,Surface_Obstruction,ade9d55af146162b3539f4295c07f3ab,False,10,0.8448,Train/Surface_Obstruction/Imgdirty_707_1.jpg,True
+Soiling_DS_v2_14/train/images/ROI_79_jpg.rf.acdfb35b289dff5dd94796f7947b7a9b.jpg,0,Surface_Obstruction,ade9d55af146162b3539f4295c07f3ab,False,10,0.8448,Train/Surface_Obstruction/Imgdirty_707_1.jpg,True
+Soiling_DS_v2_14/train/images/ROI_79_jpg.rf.e6b5d53404c1f4e393bc7f7aecf9d28c.jpg,0,Surface_Obstruction,a03049bf297eeae9979c4b818f0f25e6,False,14,0.8392,Train/Surface_Obstruction/Imgdirty_243_1.jpg,False
+Soiling_DS_v2_14/train/images/ROI_7_jpg.rf.80bbcf60bb6053babe3e8d40b5685209.jpg,"0,1",Surface_Obstruction,4b92aedae01dfcca7715625b4361b59f,False,14,0.8633,Train/Healthy/Imgclean_426_0.jpg,True
+Soiling_DS_v2_14/train/images/ROI_7_jpg.rf.8a1762d8196e1a3fb45f3bc28e5a32aa.jpg,"0,1",Surface_Obstruction,7fe753d25b1bbd6a53d2a6686bb1c568,False,14,0.8279,Train/Healthy/Imgclean_501_0.jpg,False
+Soiling_DS_v2_14/train/images/ROI_7_jpg.rf.926c3f1e04ee47aea6ddffe95dfb4e8d.jpg,"0,1",Surface_Obstruction,7fe753d25b1bbd6a53d2a6686bb1c568,False,14,0.8279,Train/Healthy/Imgclean_501_0.jpg,False
+Soiling_DS_v2_14/train/images/ROI_80_jpg.rf.76d9660faba1caf92c421a42adf0ca54.jpg,0,Surface_Obstruction,229e07dd12ed6a5312abb924e822b7b8,False,14,0.8831,Train/Surface_Obstruction/Imgdirty_707_1.jpg,True
+Soiling_DS_v2_14/train/images/ROI_80_jpg.rf.bba6f685480b638e001d98ef0cd0a7ca.jpg,0,Surface_Obstruction,229e07dd12ed6a5312abb924e822b7b8,False,14,0.8831,Train/Surface_Obstruction/Imgdirty_707_1.jpg,True
+Soiling_DS_v2_14/train/images/ROI_80_jpg.rf.d668499a95a1169fb538723a57a24397.jpg,0,Surface_Obstruction,2fe79ed314db429afcd2ee53064596f2,False,16,0.7862,Train/Healthy/Imgclean_426_0.jpg,False
+Soiling_DS_v2_14/train/images/ROI_81_jpg.rf.25d488ae920f83ab0cec41ac67cd0f11.jpg,0,Surface_Obstruction,275f7d14474c290adbf40e884777b946,False,16,0.7254,Train/Healthy/Imgclean_428_0.jpg,False
+Soiling_DS_v2_14/train/images/ROI_81_jpg.rf.65a425829fe3222f5d59cc7d124f3a34.jpg,0,Surface_Obstruction,3fd51f063e3c9fa60ebe09b37ed4ff54,False,16,0.8539,Train/Surface_Obstruction/Dust (20)-D.jpg,True
+Soiling_DS_v2_14/train/images/ROI_81_jpg.rf.6e0b0a3fa1013055653fb44a118c2eca.jpg,0,Surface_Obstruction,3fd51f063e3c9fa60ebe09b37ed4ff54,False,16,0.8539,Train/Surface_Obstruction/Dust (20)-D.jpg,True
+Soiling_DS_v2_14/train/images/ROI_82_jpg.rf.18c9dd05e5f2e0f8ee619e3bf33d6b63.jpg,0,Surface_Obstruction,12236c9a5e1e132c84dd233167a2aace,False,16,0.8418,Train/Healthy/Imgclean_428_0.jpg,False
+Soiling_DS_v2_14/train/images/ROI_82_jpg.rf.9dcce11554ef0a02e1cb188522e73248.jpg,0,Surface_Obstruction,f08f54eeb1b3f412dbe66b69db31f581,False,16,0.7408,Train/Healthy/Imgclean_428_0.jpg,False
+Soiling_DS_v2_14/train/images/ROI_82_jpg.rf.ad224a940cec20a492862d3b9f1a8a27.jpg,0,Surface_Obstruction,52102cf0312a9e815b121d5ed8fcc0a8,False,16,0.7772,Valid/Surface_Obstruction/Bird (18)-bb.JPG,False
+Soiling_DS_v2_14/train/images/ROI_84_jpg.rf.5717f46a6bf1b4601d67fb3f2f61deb9.jpg,0,Surface_Obstruction,0feb990c5c6c633d0bdf3756f2d0a0f6,False,14,0.8135,Train/Healthy/Imgclean_428_0.jpg,False
+Soiling_DS_v2_14/train/images/ROI_84_jpg.rf.a8e66932e053c67c0cffe737bcf3bfa7.jpg,0,Surface_Obstruction,6e58d6e20556378ee12f409bd9a109d7,False,14,0.8541,Test/Healthy/Clean (77).jpg,True
+Soiling_DS_v2_14/train/images/ROI_84_jpg.rf.ecc69cf261e9ea2f647ae53a18196beb.jpg,0,Surface_Obstruction,4a23b2f9209a1f968993e38a3a6c4d31,False,16,0.8216,Train/Healthy/Imgclean_426_0.jpg,False
+Soiling_DS_v2_14/train/images/ROI_85_jpg.rf.90b9c00d64fd1cc65d7c629d8f205b45.jpg,"0,1",Surface_Obstruction,932132ea3a9ec5e5336f3ecf3355bee9,False,16,0.807,Train/Surface_Obstruction/Imgdirty_43_1.jpg,False
+Soiling_DS_v2_14/train/images/ROI_85_jpg.rf.aef092247ba1c4e5b3fc4eb0faf8dccb.jpg,"0,1",Surface_Obstruction,1067413044602ae9e3c3bd6f3bd3859b,False,14,0.8136,Train/Healthy/Imgclean_428_0.jpg,False
+Soiling_DS_v2_14/train/images/ROI_85_jpg.rf.d16c9fd3332599fe71879a98ae22baef.jpg,"0,1",Surface_Obstruction,932132ea3a9ec5e5336f3ecf3355bee9,False,16,0.807,Train/Surface_Obstruction/Imgdirty_43_1.jpg,False
+Soiling_DS_v2_14/train/images/ROI_86_jpg.rf.04c4c54a94a3c237fc3decdf596b9f16.jpg,"0,1",Surface_Obstruction,3eccd219df01d505c06539144f36fb07,False,18,0.8358,Train/Structural_Fault/Physical (145).jpg,False
+Soiling_DS_v2_14/train/images/ROI_86_jpg.rf.45b12df061498c9a1c97aa13533c8a18.jpg,"0,1",Surface_Obstruction,8d2ad8a7616878ec69312470f3991f71,False,18,0.8184,Train/Surface_Obstruction/Imgdirty_686_1.jpg,False
+Soiling_DS_v2_14/train/images/ROI_86_jpg.rf.7a1c2684d03f75500b45899f790dc8cb.jpg,"0,1",Surface_Obstruction,25ca5329667b2ae60c61fdc2ca537b65,False,16,0.5146,Train/Surface_Obstruction/Dust (82)-D.jpg,False
+Soiling_DS_v2_14/train/images/ROI_87_jpg.rf.1f186228213d15cf8d0ab9d7ea9434c1.jpg,"0,1",Surface_Obstruction,2d62f7fc4d582a8961b28ae0f2387ac5,False,12,0.8501,Train/Healthy/Imgclean_428_0.jpg,True
+Soiling_DS_v2_14/train/images/ROI_87_jpg.rf.4dd2642f6038de7fda36323aca6c1bde.jpg,"0,1",Surface_Obstruction,59601376d8b6d65ce550d6d13446a38c,False,14,0.801,Train/Healthy/Imgclean_428_0.jpg,False
+Soiling_DS_v2_14/train/images/ROI_87_jpg.rf.52d58003baecbaf60640afa004ff1688.jpg,"0,1",Surface_Obstruction,0a3b1334a284d2888252a19431ad0eb8,False,12,0.864,Train/Healthy/Imgclean_428_0.jpg,True
+Soiling_DS_v2_14/train/images/ROI_88_jpg.rf.c5dc7069dbf29a5c642f53295a4b9f72.jpg,0,Surface_Obstruction,62eaa90e4e1362ed545b455b8c96ca32,False,16,0.7948,Train/Healthy/Imgclean_1035_0.jpg,False
+Soiling_DS_v2_14/train/images/ROI_88_jpg.rf.c903a59ffd97d154b19e48817978fecd.jpg,0,Surface_Obstruction,62eaa90e4e1362ed545b455b8c96ca32,False,16,0.7948,Train/Healthy/Imgclean_1035_0.jpg,False
+Soiling_DS_v2_14/train/images/ROI_88_jpg.rf.d96a761cc9a3c3a1b7dbb11522318b8a.jpg,0,Surface_Obstruction,a3336965f29c26928493a81b56fb26d6,False,14,0.7874,Train/Healthy/Imgclean_428_0.jpg,False
+Soiling_DS_v2_14/train/images/ROI_89_jpg.rf.294c5c26bfca22b81e923fa28fb8d885.jpg,"0,1",Surface_Obstruction,3ea65e748167e38c9172af0dab2563d7,False,14,0.9226,Test/Structural_Fault/Physical (13)-PP.jpg,True
+Soiling_DS_v2_14/train/images/ROI_89_jpg.rf.3eb87c7e90cb3802f95ef8e39b9dd77a.jpg,"0,1",Surface_Obstruction,8b847bafb5047e36c572891b30c9e474,False,16,0.9136,Test/Structural_Fault/Physical (13)-PP.jpg,True
+Soiling_DS_v2_14/train/images/ROI_89_jpg.rf.ee01b5a31166f303fd93404948d714c3.jpg,"0,1",Surface_Obstruction,3ea65e748167e38c9172af0dab2563d7,False,14,0.9226,Test/Structural_Fault/Physical (13)-PP.jpg,True
+Soiling_DS_v2_14/train/images/ROI_8_jpg.rf.62d04e8f9efb8670b39af77a2195814c.jpg,0,Surface_Obstruction,1b1d8ee085d66ebd719e66c46a9e155d,False,14,0.9025,Train/Healthy/Imgclean_428_0.jpg,True
+Soiling_DS_v2_14/train/images/ROI_8_jpg.rf.983a10bb36aa946c5012ada0f3faecc6.jpg,0,Surface_Obstruction,d57fc160619fbdc8bed409113df92683,False,10,0.8738,Train/Healthy/Imgclean_428_0.jpg,True
+Soiling_DS_v2_14/train/images/ROI_92_jpg.rf.574b2a21a7f4d62e38caa08c4c991af5.jpg,"0,1",Surface_Obstruction,36944fe0bb9fce7570301e5d64f98a52,False,14,0.8758,Test/Healthy/Clean (139).JPG,True
+Soiling_DS_v2_14/train/images/ROI_92_jpg.rf.5ef2176ea9fae4515a1b4c1cdc513988.jpg,"0,1",Surface_Obstruction,f83849289d4c1b7b44d185f1c8504974,False,16,0.8685,Train/Healthy/Imgclean_429_0.jpg,True
+Soiling_DS_v2_14/train/images/ROI_92_jpg.rf.e2cb51e9a36b1c06714511e427a55d28.jpg,"0,1",Surface_Obstruction,36944fe0bb9fce7570301e5d64f98a52,False,14,0.8758,Test/Healthy/Clean (139).JPG,True
+Soiling_DS_v2_14/train/images/ROI_95_jpg.rf.7d3ded2958a034c78423386e8ceb5cdf.jpg,0,Surface_Obstruction,497059f96e5d75e161e333d3f80dc6bf,False,18,0.8951,Train/Healthy/Imgclean_1058_0.jpg,True
+Soiling_DS_v2_14/train/images/ROI_95_jpg.rf.822f942ed93f02a3f0d2952eea58e456.jpg,0,Surface_Obstruction,2ac7499a9a2847bce783850fca3c9222,False,16,0.9034,Test/Healthy/Clean (139).JPG,True
+Soiling_DS_v2_14/train/images/ROI_95_jpg.rf.b0bdfd799920887956fcd52706d291f7.jpg,0,Surface_Obstruction,2ac7499a9a2847bce783850fca3c9222,False,16,0.9034,Test/Healthy/Clean (139).JPG,True
+Soiling_DS_v2_14/train/images/ROI_96_jpg.rf.6c8d3e60079ac2a3263763b8b8374831.jpg,0,Surface_Obstruction,520ebabe61ded3c74e426e1cadb4d526,False,12,0.9567,Train/Surface_Obstruction/Imgdirty_707_1.jpg,True
+Soiling_DS_v2_14/train/images/ROI_96_jpg.rf.9b67d0772bdb9346b768fd6d207a34eb.jpg,0,Surface_Obstruction,df64e9e01973c44b1e687b04330ef005,False,12,0.8499,Test/Healthy/Clean (164).jpg,True
+Soiling_DS_v2_14/train/images/ROI_96_jpg.rf.c0037d1fbe5069516c4f64cbc3d54bfb.jpg,0,Surface_Obstruction,f7fc166852e2a8207c9f6582f32820e3,False,14,0.8748,Test/Structural_Fault/Physical (13)-PP.jpg,True
+Soiling_DS_v2_14/train/images/ROI_97_jpg.rf.24c6ac2d0434cda2d9d526d37d5834a9.jpg,0,Surface_Obstruction,c922932c7c1f23e913c7ece78c189d83,False,16,0.9187,Valid/Surface_Obstruction/Bird (18)-bb.JPG,True
+Soiling_DS_v2_14/train/images/ROI_97_jpg.rf.4c238d699fc48ae79a1813130b2be0e6.jpg,0,Surface_Obstruction,6f0269def216df3128ac23790360e5cc,False,14,0.9204,Train/Surface_Obstruction/Imgdirty_707_1.jpg,True
+Soiling_DS_v2_14/train/images/ROI_97_jpg.rf.7a0cee992f4b49525f29a5ff44716583.jpg,0,Surface_Obstruction,d4ac641b9e7d6784fe99ac49450746c3,False,16,0.8768,Train/Surface_Obstruction/Imgdirty_845_1.jpg,True
+Soiling_DS_v2_14/train/images/ROI_99_jpg.rf.686976aca66daf0212950abd5c921ce8.jpg,"0,1",Surface_Obstruction,b4ac6c71fe4316cf51e1b231fa043283,False,16,0.8656,Test/Structural_Fault/Physical (13)-PP.jpg,True
+Soiling_DS_v2_14/train/images/ROI_99_jpg.rf.716a728484afc6d39f247cc894309de3.jpg,"0,1",Surface_Obstruction,a87f470c8b99dd546dadaf35b0ed51c3,False,18,0.9505,Train/Surface_Obstruction/Imgdirty_707_1.jpg,True
+Soiling_DS_v2_14/train/images/ROI_99_jpg.rf.bcdb7b712628fcb805e9b42989acdac6.jpg,"0,1",Surface_Obstruction,ac7b73aa0de2b0956b89a7d4edc6a281,False,16,0.845,Train/Surface_Obstruction/Imgdirty_707_1.jpg,False
+Soiling_DS_v2_14/train/images/ROI_9_jpg.rf.1ea911b489bc6be5ef0c7950113702ce.jpg,"0,1",Surface_Obstruction,07552a07d54f348b71e9492004fbd1dc,False,14,0.8414,Train/Healthy/Imgclean_428_0.jpg,False
+Soiling_DS_v2_14/train/images/ROI_9_jpg.rf.7c92fc4c0b00d7c0a4acc56f532f3927.jpg,"0,1",Surface_Obstruction,0125d4b0d233460ebd5f32f513f87088,False,14,0.8323,Train/Healthy/Imgclean_428_0.jpg,False
+Soiling_DS_v2_14/train/images/ROI_9_jpg.rf.cccafc24d2a75c2116cd18f01067955a.jpg,"0,1",Surface_Obstruction,0c4ffc786a155f826dcd6bbdc5d6f7d7,False,14,0.8153,Train/Healthy/Imgclean_428_0.jpg,False
+Soiling_DS_v2_14/valid/images/ROI_103_jpg.rf.91ad3eb7cf3f1741166a7bd2cc957954.jpg,"0,1",Surface_Obstruction,54575bb0c5f60963fecd9a5c5239f0d8,False,14,0.9455,Train/Surface_Obstruction/Imgdirty_707_1.jpg,True
+Soiling_DS_v2_14/valid/images/ROI_118_jpg.rf.d0b598ad9a80624aa6529a0039123db0.jpg,"0,1",Surface_Obstruction,53e6556d098022934e35ad6d0724a9cf,False,16,0.8534,Train/Healthy/Imgclean_1035_0.jpg,True
+Soiling_DS_v2_14/valid/images/ROI_121_jpg.rf.fb4157f830c7ebc71f39591b8e40eaea.jpg,"0,1",Surface_Obstruction,ce85fbfea1381f7505658893603b3143,False,14,0.8325,Train/Healthy/Imgclean_428_0.jpg,False
+Soiling_DS_v2_14/valid/images/ROI_148_jpg.rf.043cd9675b369e8c53eb76e1f899d230.jpg,0,Surface_Obstruction,fbb0aa84a41c7cfbac8868ab4a4c6f81,False,18,0.9232,Valid/Surface_Obstruction/Bird (18)-bb.JPG,True
+Soiling_DS_v2_14/valid/images/ROI_150_jpg.rf.9a58eea540c9e60dabd0b25a0be1dc05.jpg,"0,1",Surface_Obstruction,b931b4ec705911c9682af6b27acc8e91,False,18,0.8375,Train/Healthy/Imgclean_521_0.jpg,False
+Soiling_DS_v2_14/valid/images/ROI_172_jpg.rf.98be61bca9d1836054fb3c6f3327b5a6.jpg,"0,1",Surface_Obstruction,57ef27e995410eab556f403283f6e29f,False,16,0.9042,Valid/Surface_Obstruction/Bird (1)-bb.jpg,True
+Soiling_DS_v2_14/valid/images/ROI_173_jpg.rf.96fee173e70b8f8db5e00336a7965ba1.jpg,"0,1",Surface_Obstruction,f59250f31305a781fa3e0262e813c9ad,False,8,0.9067,Valid/Surface_Obstruction/Bird (1)-bb.jpg,True
+Soiling_DS_v2_14/valid/images/ROI_19_jpg.rf.d23f9efec7ff34bab3c579a62592a216.jpg,0,Surface_Obstruction,9f496241990a703839714643bae524ba,False,18,0.8645,Train/Healthy/Imgclean_426_0.jpg,True
+Soiling_DS_v2_14/valid/images/ROI_27_jpg.rf.55b850b528b4d1a46da6dfdac814109d.jpg,0,Surface_Obstruction,018f8ee5d9bad570a5d902fee4d0885d,False,16,0.8466,Train/Healthy/Imgclean_501_0.jpg,False
+Soiling_DS_v2_14/valid/images/ROI_35_jpg.rf.dadb4ef945b5454d4b8b299dcfc3c3fb.jpg,"0,1",Surface_Obstruction,ee1d9087739370e171ca0cd0a50479a7,False,16,0.7615,Train/Healthy/Imgclean_428_0.jpg,False
+Soiling_DS_v2_14/valid/images/ROI_42_jpg.rf.8a859f411af4ca22feee664aa5f0d7fe.jpg,"0,1",Surface_Obstruction,8b0e0ec17fa1ccebdb6d8955dba3fa20,False,14,0.695,Valid/Structural_Fault/Physical (3)-P.jpg,False
+Soiling_DS_v2_14/valid/images/ROI_50_jpg.rf.421b6682be4a3fa58f45f3e57dfc6ebf.jpg,"0,1",Surface_Obstruction,06e8c07cef32d6dd7cf098b134c7a598,False,16,0.7916,Train/Healthy/Imgclean_421_0.jpg,False
+Soiling_DS_v2_14/valid/images/ROI_54_jpg.rf.8124f7e9fb6c8883cffa285841c93777.jpg,0,Surface_Obstruction,28857a15ff7ed579088377bb4168a66d,False,16,0.8435,Test/Surface_Obstruction/Bird (92).jpg,False
+Soiling_DS_v2_14/valid/images/ROI_70_jpg.rf.28b777a059c69060f11310530ada4c8e.jpg,"0,1",Surface_Obstruction,0184b05891c07e38013aed98a9f6a336,False,12,0.8269,Train/Surface_Obstruction/Imgdirty_845_1.jpg,True
+Soiling_DS_v2_14/valid/images/ROI_71_jpg.rf.735f8cbfacbd1d5b711a2fa40c6ad6ed.jpg,0,Surface_Obstruction,fcbe6ba131f0ff11e1e4c8af8a0f6fd3,False,16,0.8722,Train/Healthy/Imgclean_421_0.jpg,True
+Soiling_DS_v2_14/valid/images/ROI_72_jpg.rf.32bd11e5e4358f0285473a8519bc825e.jpg,"0,1",Surface_Obstruction,9e93acdc60f277ef933351b1878cd69e,False,16,0.8468,Train/Surface_Obstruction/Imgdirty_845_1.jpg,False
+Soiling_DS_v2_14/valid/images/ROI_74_jpg.rf.d0e3b35e894986775fcfebec84ae42ad.jpg,1,Surface_Obstruction,ca20216c5ee0f1b4609b2de496469212,False,14,0.7719,Train/Electrical_Fault/Electrical (130).jpg,False
+Soiling_DS_v2_14/valid/images/ROI_77_jpg.rf.ebfd49a108b5f3079ef97a108ee5849f.jpg,0,Surface_Obstruction,7936ed90062774e15ca2a6bbc2b5d960,False,16,0.8368,Train/Healthy/Imgclean_428_0.jpg,False
+Soiling_DS_v2_14/valid/images/ROI_91_jpg.rf.75f07e376748489d52d8ff02e467080f.jpg,0,Surface_Obstruction,54fda593a4fb8b68fd2e18e60decfec2,False,16,0.8798,Test/Healthy/Clean (77).jpg,True
+Soiling_DS_v2_14/valid/images/ROI_93_jpg.rf.a3376ccbb892a02b2958f116f3c05ab1.jpg,0,Surface_Obstruction,037b287f6dc1029e4e64ee28bcb3db03,False,16,0.8495,Train/Healthy/Imgclean_954_0.jpg,False
+Soiling_DS_v2_14/valid/images/ROI_94_jpg.rf.27478f788ab7f508d729618c3500b29f.jpg,0,Surface_Obstruction,2e8a64ce812423a7d77721d1f2c38c1f,False,18,0.8212,Train/Healthy/Imgclean_428_0.jpg,False
+Soiling_DS_v2_14/valid/images/ROI_98_jpg.rf.63561457dd421ae7387cb8435c2c81d2.jpg,0,Surface_Obstruction,abe25505e161f82c611149e273ad4ea1,False,14,0.9253,Train/Surface_Obstruction/Imgdirty_707_1.jpg,True

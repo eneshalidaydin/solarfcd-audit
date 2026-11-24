@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use these data or code, please cite the article and this archive."
+title: "SolarFCD audit: leakage, label ambiguity and domain shift in image-based PV fault detection (data and code)"
+type: software
+version: 1.0.1
+doi: 10.5281/zenodo.24500535
+date-released: 2026-11-22
+license: MIT
+authors:
+  - family-names: "Aydın"
+    given-names: "Enes Halit"
+    affiliation: "Department of Electricity and Energy, Karadeniz Technical University, Trabzon, Türkiye"
+keywords:
+  - photovoltaic
+  - fault detection
+  - soiling
+  - data leakage
+  - label noise
+  - conformal prediction
+preferred-citation:
+  type: article
+  title: "Leak-controlled evaluation and expert label auditing reveal the true reliability of image-based photovoltaic fault detection for operation and maintenance"
+  authors:
+    - family-names: "Aydın"
+      given-names: "Enes Halit"
+  journal: "Renewable Energy"
+  year: 2026
+  notes: "Submitted"

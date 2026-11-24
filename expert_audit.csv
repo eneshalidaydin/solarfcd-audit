@@ -1,0 +1,151 @@
+image_id,rel_path,label_original,candidate,ensemble_p_label,ensemble_prediction,expert1,expert2,expert3,consensus,unanimous,status
+E000,Test/Electrical_Fault/Electrical (13).jpg,Electrical_Fault,True,0.026,Surface_Obstruction,Electrical_Fault,Structural_Fault,mixed,ambiguous,False,ambiguous
+E001,Test/Healthy/Clean (112).jpg,Healthy,True,0.0946,Surface_Obstruction,Surface_Obstruction,Surface_Obstruction,Surface_Obstruction,Surface_Obstruction,True,changed
+E002,Test/Healthy/Clean (76).jpg,Healthy,True,0.1241,Surface_Obstruction,Surface_Obstruction,Surface_Obstruction,Surface_Obstruction,Surface_Obstruction,True,changed
+E003,Test/Surface_Obstruction/Bird (187).jpg,Surface_Obstruction,True,0.188,Structural_Fault,mixed,Surface_Obstruction,Structural_Fault,ambiguous,False,ambiguous
+E004,Train/Electrical_Fault/Electrical (1).jpg,Electrical_Fault,True,0.0371,Surface_Obstruction,mixed,Structural_Fault,Structural_Fault,Structural_Fault,False,changed
+E005,Train/Electrical_Fault/Electrical (1).png,Electrical_Fault,True,0.1882,Surface_Obstruction,Structural_Fault,mixed,Electrical_Fault,ambiguous,False,ambiguous
+E006,Train/Electrical_Fault/Electrical (118).jpg,Electrical_Fault,True,0.1161,Healthy,Electrical_Fault,Structural_Fault,Electrical_Fault,Electrical_Fault,False,kept
+E007,Train/Electrical_Fault/Electrical (129).jpg,Electrical_Fault,True,0.0403,Healthy,mixed,Structural_Fault,Electrical_Fault,ambiguous,False,ambiguous
+E008,Train/Electrical_Fault/Electrical (138).jpg,Electrical_Fault,True,0.1507,Healthy,Electrical_Fault,Electrical_Fault,Electrical_Fault,Electrical_Fault,True,kept
+E009,Train/Electrical_Fault/Electrical (18).jpg,Electrical_Fault,True,0.1934,Surface_Obstruction,mixed,Surface_Obstruction,mixed,ambiguous,False,ambiguous
+E010,Train/Electrical_Fault/Electrical (60).jpg,Electrical_Fault,True,0.1054,Surface_Obstruction,Electrical_Fault,Structural_Fault,mixed,ambiguous,False,ambiguous
+E011,Train/Electrical_Fault/Electrical (88).jpg,Electrical_Fault,True,0.1105,Healthy,mixed,Structural_Fault,mixed,ambiguous,False,ambiguous
+E012,Train/Healthy/Imgclean_1073_0.jpg,Healthy,True,0.0296,Surface_Obstruction,Surface_Obstruction,Surface_Obstruction,Surface_Obstruction,Surface_Obstruction,True,changed
+E013,Train/Healthy/Imgclean_1076_0.jpg,Healthy,True,0.0277,Surface_Obstruction,Surface_Obstruction,Surface_Obstruction,Surface_Obstruction,Surface_Obstruction,True,changed
+E014,Train/Healthy/Imgclean_1189_0.jpg,Healthy,True,0.0335,Surface_Obstruction,Surface_Obstruction,Healthy,Healthy,Healthy,False,kept
+E015,Train/Healthy/Imgclean_1362_0.jpg,Healthy,True,0.0643,Surface_Obstruction,Surface_Obstruction,Surface_Obstruction,Surface_Obstruction,Surface_Obstruction,True,changed
+E016,Train/Healthy/Imgclean_1369_0.jpg,Healthy,True,0.0423,Surface_Obstruction,,Surface_Obstruction,Structural_Fault,ambiguous,False,ambiguous
+E017,Train/Healthy/Imgclean_1370_0.jpg,Healthy,True,0.1442,Surface_Obstruction,Surface_Obstruction,Surface_Obstruction,Electrical_Fault,Surface_Obstruction,False,changed
+E018,Train/Healthy/Imgclean_1372_0.jpg,Healthy,True,0.0538,Surface_Obstruction,Surface_Obstruction,Surface_Obstruction,Surface_Obstruction,Surface_Obstruction,True,changed
+E019,Train/Healthy/Imgclean_1373_0.jpg,Healthy,True,0.0224,Surface_Obstruction,mixed,Surface_Obstruction,Healthy,ambiguous,False,ambiguous
+E020,Train/Healthy/Imgclean_1376_0.jpg,Healthy,True,0.0219,Surface_Obstruction,Surface_Obstruction,Surface_Obstruction,Surface_Obstruction,Surface_Obstruction,True,changed
+E021,Train/Healthy/Imgclean_1378_0.jpg,Healthy,True,0.0295,Surface_Obstruction,Surface_Obstruction,Surface_Obstruction,Surface_Obstruction,Surface_Obstruction,True,changed
+E022,Train/Healthy/Imgclean_15_0.jpg,Healthy,True,0.0206,Surface_Obstruction,Surface_Obstruction,Surface_Obstruction,Healthy,Surface_Obstruction,False,changed
+E023,Train/Healthy/Imgclean_160_0.jpg,Healthy,True,0.0427,Surface_Obstruction,Surface_Obstruction,Surface_Obstruction,Healthy,Surface_Obstruction,False,changed
+E024,Train/Healthy/Imgclean_374_0.jpg,Healthy,True,0.0239,Surface_Obstruction,Surface_Obstruction,Surface_Obstruction,Structural_Fault,Surface_Obstruction,False,changed
+E025,Train/Healthy/Imgclean_484_0.jpg,Healthy,True,0.1162,Surface_Obstruction,Surface_Obstruction,Surface_Obstruction,Surface_Obstruction,Surface_Obstruction,True,changed
+E026,Train/Healthy/Imgclean_498_0.jpg,Healthy,True,0.1394,Surface_Obstruction,Surface_Obstruction,Surface_Obstruction,Healthy,Surface_Obstruction,False,changed
+E027,Train/Healthy/Imgclean_520_0.jpg,Healthy,True,0.0804,Surface_Obstruction,Surface_Obstruction,Surface_Obstruction,Structural_Fault,Surface_Obstruction,False,changed
+E028,Train/Healthy/Imgclean_67_0.jpg,Healthy,True,0.0292,Surface_Obstruction,Surface_Obstruction,Surface_Obstruction,Healthy,Surface_Obstruction,False,changed
+E029,Train/Healthy/Imgclean_732_0.jpg,Healthy,True,0.0645,Surface_Obstruction,Surface_Obstruction,Surface_Obstruction,Healthy,Surface_Obstruction,False,changed
+E030,Train/Healthy/Imgclean_761_0.jpg,Healthy,True,0.0236,Surface_Obstruction,Surface_Obstruction,Surface_Obstruction,Electrical_Fault,Surface_Obstruction,False,changed
+E031,Train/Healthy/Imgclean_988_0.jpg,Healthy,True,0.1802,Surface_Obstruction,Surface_Obstruction,Structural_Fault,Surface_Obstruction,Surface_Obstruction,False,changed
+E032,Train/Structural_Fault/Physical (145).jpg,Structural_Fault,True,0.0421,Healthy,mixed,Structural_Fault,mixed,ambiguous,False,ambiguous
+E033,Train/Structural_Fault/Physical (146).jpg,Structural_Fault,True,0.0409,Surface_Obstruction,mixed,Structural_Fault,mixed,ambiguous,False,ambiguous
+E034,Train/Structural_Fault/Physical (65).jpg,Structural_Fault,True,0.0466,Surface_Obstruction,mixed,Structural_Fault,Structural_Fault,Structural_Fault,False,kept
+E035,Train/Structural_Fault/Physical (80).jpg,Structural_Fault,True,0.0555,Surface_Obstruction,Structural_Fault,Structural_Fault,Structural_Fault,Structural_Fault,True,kept
+E036,Train/Structural_Fault/Physical (83).jpg,Structural_Fault,True,0.1226,Surface_Obstruction,mixed,Structural_Fault,mixed,ambiguous,False,ambiguous
+E037,Train/Surface_Obstruction/Dust (101).jpg,Surface_Obstruction,True,0.0224,Healthy,not_sure,Surface_Obstruction,Healthy,ambiguous,False,ambiguous
+E038,Train/Surface_Obstruction/Dust (121).jpg,Surface_Obstruction,True,0.0841,Healthy,Surface_Obstruction,Surface_Obstruction,Surface_Obstruction,Surface_Obstruction,True,kept
+E039,Train/Surface_Obstruction/Dust (28).jpg,Surface_Obstruction,True,0.1694,Healthy,Surface_Obstruction,Surface_Obstruction,Surface_Obstruction,Surface_Obstruction,True,kept
+E040,Train/Surface_Obstruction/Dust (41)-D.jpg,Surface_Obstruction,True,0.0403,Healthy,Surface_Obstruction,Surface_Obstruction,Healthy,Surface_Obstruction,False,kept
+E041,Train/Surface_Obstruction/Dust (41).jpg,Surface_Obstruction,True,0.0222,Healthy,Surface_Obstruction,Surface_Obstruction,Healthy,Surface_Obstruction,False,kept
+E042,Train/Surface_Obstruction/Dust (66).jpg,Surface_Obstruction,True,0.1057,Healthy,mixed,Surface_Obstruction,Healthy,ambiguous,False,ambiguous
+E043,Train/Surface_Obstruction/Dust (77).jpg,Surface_Obstruction,True,0.0298,Healthy,Surface_Obstruction,Surface_Obstruction,Healthy,Surface_Obstruction,False,kept
+E044,Train/Surface_Obstruction/Dust (91)-D.jpg,Surface_Obstruction,True,0.0629,Healthy,Surface_Obstruction,Surface_Obstruction,Healthy,Surface_Obstruction,False,kept
+E045,Train/Surface_Obstruction/Imgdirty_102_1.jpg,Surface_Obstruction,True,0.0252,Healthy,not_sure,Surface_Obstruction,Healthy,ambiguous,False,ambiguous
+E046,Train/Surface_Obstruction/Imgdirty_104_1.jpg,Surface_Obstruction,True,0.0232,Healthy,Surface_Obstruction,Surface_Obstruction,Healthy,Surface_Obstruction,False,kept
+E047,Train/Surface_Obstruction/Imgdirty_107_1.jpg,Surface_Obstruction,True,0.0359,Healthy,Surface_Obstruction,Surface_Obstruction,Healthy,Surface_Obstruction,False,kept
+E048,Train/Surface_Obstruction/Imgdirty_109_1.jpg,Surface_Obstruction,True,0.1036,Healthy,Surface_Obstruction,Surface_Obstruction,Surface_Obstruction,Surface_Obstruction,True,kept
+E049,Train/Surface_Obstruction/Imgdirty_111_1.jpg,Surface_Obstruction,True,0.0385,Healthy,Surface_Obstruction,Surface_Obstruction,Surface_Obstruction,Surface_Obstruction,True,kept
+E050,Train/Surface_Obstruction/Imgdirty_113_1.jpg,Surface_Obstruction,True,0.0218,Healthy,not_sure,Healthy,Healthy,Healthy,False,changed
+E051,Train/Surface_Obstruction/Imgdirty_118_1.jpg,Surface_Obstruction,True,0.1305,Healthy,Surface_Obstruction,Surface_Obstruction,Surface_Obstruction,Surface_Obstruction,True,kept
+E052,Train/Surface_Obstruction/Imgdirty_122_1.jpg,Surface_Obstruction,True,0.0247,Healthy,not_sure,Surface_Obstruction,Healthy,ambiguous,False,ambiguous
+E053,Train/Surface_Obstruction/Imgdirty_126_1.jpg,Surface_Obstruction,True,0.0208,Healthy,Surface_Obstruction,Surface_Obstruction,Healthy,Surface_Obstruction,False,kept
+E054,Train/Surface_Obstruction/Imgdirty_129_1.jpg,Surface_Obstruction,True,0.0375,Healthy,Surface_Obstruction,Surface_Obstruction,not_sure,Surface_Obstruction,False,kept
+E055,Train/Surface_Obstruction/Imgdirty_133_1.jpg,Surface_Obstruction,True,0.0225,Healthy,not_sure,Structural_Fault,Healthy,ambiguous,False,ambiguous
+E056,Train/Surface_Obstruction/Imgdirty_135_1.jpg,Surface_Obstruction,True,0.0265,Healthy,Healthy,Healthy,Healthy,Healthy,True,changed
+E057,Train/Surface_Obstruction/Imgdirty_143_1.jpg,Surface_Obstruction,True,0.021,Healthy,not_sure,Surface_Obstruction,Healthy,ambiguous,False,ambiguous
+E058,Train/Surface_Obstruction/Imgdirty_153_1.jpg,Surface_Obstruction,True,0.0478,Healthy,Surface_Obstruction,Surface_Obstruction,Surface_Obstruction,Surface_Obstruction,True,kept
+E059,Train/Surface_Obstruction/Imgdirty_159_1.jpg,Surface_Obstruction,True,0.1854,Healthy,not_sure,Surface_Obstruction,Healthy,ambiguous,False,ambiguous
+E060,Train/Surface_Obstruction/Imgdirty_166_1.jpg,Surface_Obstruction,True,0.0212,Healthy,not_sure,Healthy,Healthy,Healthy,False,changed
+E061,Train/Surface_Obstruction/Imgdirty_168_1.jpg,Surface_Obstruction,True,0.0222,Healthy,not_sure,Healthy,Healthy,Healthy,False,changed
+E062,Train/Surface_Obstruction/Imgdirty_183_1.jpg,Surface_Obstruction,True,0.174,Healthy,Surface_Obstruction,Surface_Obstruction,Surface_Obstruction,Surface_Obstruction,True,kept
+E063,Train/Surface_Obstruction/Imgdirty_205_1.jpg,Surface_Obstruction,True,0.1365,Healthy,Surface_Obstruction,Surface_Obstruction,Healthy,Surface_Obstruction,False,kept
+E064,Train/Surface_Obstruction/Imgdirty_206_1.jpg,Surface_Obstruction,True,0.0225,Healthy,Surface_Obstruction,Surface_Obstruction,Healthy,Surface_Obstruction,False,kept
+E065,Train/Surface_Obstruction/Imgdirty_207_1.jpg,Surface_Obstruction,True,0.0237,Healthy,Surface_Obstruction,Surface_Obstruction,Healthy,Surface_Obstruction,False,kept
+E066,Train/Surface_Obstruction/Imgdirty_209_1.jpg,Surface_Obstruction,True,0.025,Healthy,not_sure,Surface_Obstruction,not_sure,ambiguous,False,ambiguous
+E067,Train/Surface_Obstruction/Imgdirty_211_1.jpg,Surface_Obstruction,True,0.0344,Healthy,not_sure,Healthy,Healthy,Healthy,False,changed
+E068,Train/Surface_Obstruction/Imgdirty_213_1.jpg,Surface_Obstruction,True,0.1929,Healthy,Surface_Obstruction,Surface_Obstruction,Surface_Obstruction,Surface_Obstruction,True,kept
+E069,Train/Surface_Obstruction/Imgdirty_216_1.jpg,Surface_Obstruction,True,0.0348,Healthy,not_sure,Healthy,not_sure,ambiguous,False,ambiguous
+E070,Train/Surface_Obstruction/Imgdirty_221_1.jpg,Surface_Obstruction,True,0.0236,Healthy,not_sure,Surface_Obstruction,Healthy,ambiguous,False,ambiguous
+E071,Train/Surface_Obstruction/Imgdirty_222_1.jpg,Surface_Obstruction,True,0.0297,Healthy,Surface_Obstruction,Surface_Obstruction,Healthy,Surface_Obstruction,False,kept
+E072,Train/Surface_Obstruction/Imgdirty_230_1.jpg,Surface_Obstruction,True,0.122,Healthy,not_sure,Surface_Obstruction,Healthy,ambiguous,False,ambiguous
+E073,Train/Surface_Obstruction/Imgdirty_255_1.jpg,Surface_Obstruction,True,0.0594,Healthy,mixed,Surface_Obstruction,Surface_Obstruction,Surface_Obstruction,False,kept
+E074,Train/Surface_Obstruction/Imgdirty_270_1.jpg,Surface_Obstruction,True,0.0272,Healthy,mixed,Surface_Obstruction,Surface_Obstruction,Surface_Obstruction,False,kept
+E075,Train/Surface_Obstruction/Imgdirty_272_1.jpg,Surface_Obstruction,True,0.022,Healthy,Surface_Obstruction,Surface_Obstruction,Healthy,Surface_Obstruction,False,kept
+E076,Train/Surface_Obstruction/Imgdirty_288_1.jpg,Surface_Obstruction,True,0.0219,Healthy,not_sure,Surface_Obstruction,Healthy,ambiguous,False,ambiguous
+E077,Train/Surface_Obstruction/Imgdirty_289_1.jpg,Surface_Obstruction,True,0.0227,Healthy,Surface_Obstruction,Surface_Obstruction,Healthy,Surface_Obstruction,False,kept
+E078,Train/Surface_Obstruction/Imgdirty_294_1.jpg,Surface_Obstruction,True,0.1547,Healthy,Surface_Obstruction,Surface_Obstruction,Healthy,Surface_Obstruction,False,kept
+E079,Train/Surface_Obstruction/Imgdirty_295_1.jpg,Surface_Obstruction,True,0.0969,Healthy,Surface_Obstruction,Surface_Obstruction,Healthy,Surface_Obstruction,False,kept
+E080,Train/Surface_Obstruction/Imgdirty_297_1.jpg,Surface_Obstruction,True,0.1653,Healthy,not_sure,Surface_Obstruction,Healthy,ambiguous,False,ambiguous
+E081,Train/Surface_Obstruction/Imgdirty_301_1.jpg,Surface_Obstruction,True,0.0222,Healthy,Surface_Obstruction,Surface_Obstruction,Healthy,Surface_Obstruction,False,kept
+E082,Train/Surface_Obstruction/Imgdirty_304_1.jpg,Surface_Obstruction,True,0.0524,Healthy,Surface_Obstruction,Surface_Obstruction,Healthy,Surface_Obstruction,False,kept
+E083,Train/Surface_Obstruction/Imgdirty_306_1.jpg,Surface_Obstruction,True,0.0229,Healthy,Surface_Obstruction,Surface_Obstruction,Healthy,Surface_Obstruction,False,kept
+E084,Train/Surface_Obstruction/Imgdirty_319_1.jpg,Surface_Obstruction,True,0.0258,Healthy,Surface_Obstruction,Surface_Obstruction,Healthy,Surface_Obstruction,False,kept
+E085,Train/Surface_Obstruction/Imgdirty_321_1.jpg,Surface_Obstruction,True,0.0297,Healthy,Surface_Obstruction,Surface_Obstruction,Healthy,Surface_Obstruction,False,kept
+E086,Train/Surface_Obstruction/Imgdirty_332_1.jpg,Surface_Obstruction,True,0.1183,Healthy,mixed,Surface_Obstruction,Structural_Fault,ambiguous,False,ambiguous
+E087,Train/Surface_Obstruction/Imgdirty_338_1.jpg,Surface_Obstruction,True,0.0223,Healthy,not_sure,Healthy,Healthy,Healthy,False,changed
+E088,Train/Surface_Obstruction/Imgdirty_430_1.jpg,Surface_Obstruction,True,0.0225,Healthy,Healthy,Surface_Obstruction,Healthy,Healthy,False,changed
+E089,Train/Surface_Obstruction/Imgdirty_433_1.jpg,Surface_Obstruction,True,0.0229,Healthy,not_sure,Surface_Obstruction,Healthy,ambiguous,False,ambiguous
+E090,Train/Surface_Obstruction/Imgdirty_43_1.jpg,Surface_Obstruction,True,0.0323,Healthy,Surface_Obstruction,Surface_Obstruction,Healthy,Surface_Obstruction,False,kept
+E091,Train/Surface_Obstruction/Imgdirty_441_1.jpg,Surface_Obstruction,True,0.1024,Healthy,not_sure,Surface_Obstruction,Healthy,ambiguous,False,ambiguous
+E092,Train/Surface_Obstruction/Imgdirty_454_1.jpg,Surface_Obstruction,True,0.0231,Healthy,not_sure,Surface_Obstruction,not_sure,ambiguous,False,ambiguous
+E093,Train/Surface_Obstruction/Imgdirty_476_1.jpg,Surface_Obstruction,True,0.0777,Healthy,Surface_Obstruction,Surface_Obstruction,Surface_Obstruction,Surface_Obstruction,True,kept
+E094,Train/Surface_Obstruction/Imgdirty_484_1.jpg,Surface_Obstruction,True,0.0213,Healthy,mixed,Surface_Obstruction,Healthy,ambiguous,False,ambiguous
+E095,Train/Surface_Obstruction/Imgdirty_530_1.jpg,Surface_Obstruction,True,0.0269,Healthy,Surface_Obstruction,Surface_Obstruction,Surface_Obstruction,Surface_Obstruction,True,kept
+E096,Train/Surface_Obstruction/Imgdirty_56_1.jpg,Surface_Obstruction,True,0.0245,Healthy,mixed,Surface_Obstruction,Surface_Obstruction,Surface_Obstruction,False,kept
+E097,Train/Surface_Obstruction/Imgdirty_645_1.jpg,Surface_Obstruction,True,0.1363,Healthy,not_sure,Surface_Obstruction,Healthy,ambiguous,False,ambiguous
+E098,Train/Surface_Obstruction/Imgdirty_654_1.jpg,Surface_Obstruction,True,0.1243,Healthy,Structural_Fault,Surface_Obstruction,Healthy,ambiguous,False,ambiguous
+E099,Train/Surface_Obstruction/Imgdirty_659_1.jpg,Surface_Obstruction,True,0.0262,Healthy,not_sure,Surface_Obstruction,Electrical_Fault,ambiguous,False,ambiguous
+E100,Train/Surface_Obstruction/Imgdirty_674_1.jpg,Surface_Obstruction,True,0.1535,Electrical_Fault,Surface_Obstruction,Surface_Obstruction,Surface_Obstruction,Surface_Obstruction,True,kept
+E101,Train/Surface_Obstruction/Imgdirty_736_1.jpg,Surface_Obstruction,True,0.1047,Healthy,Surface_Obstruction,Surface_Obstruction,Surface_Obstruction,Surface_Obstruction,True,kept
+E102,Train/Surface_Obstruction/Imgdirty_781_1.jpg,Surface_Obstruction,True,0.1787,Healthy,Surface_Obstruction,Surface_Obstruction,mixed,Surface_Obstruction,False,kept
+E103,Train/Surface_Obstruction/Imgdirty_783_1.jpg,Surface_Obstruction,True,0.0264,Healthy,Surface_Obstruction,Surface_Obstruction,Surface_Obstruction,Surface_Obstruction,True,kept
+E104,Train/Surface_Obstruction/Imgdirty_796_1.jpg,Surface_Obstruction,True,0.1155,Structural_Fault,Surface_Obstruction,Surface_Obstruction,Surface_Obstruction,Surface_Obstruction,True,kept
+E105,Train/Surface_Obstruction/Imgdirty_824_1.jpg,Surface_Obstruction,True,0.0222,Healthy,not_sure,Surface_Obstruction,Healthy,ambiguous,False,ambiguous
+E106,Train/Surface_Obstruction/Imgdirty_831_1.jpg,Surface_Obstruction,True,0.1906,Healthy,Surface_Obstruction,Surface_Obstruction,Surface_Obstruction,Surface_Obstruction,True,kept
+E107,Train/Surface_Obstruction/Imgdirty_850_1.jpg,Surface_Obstruction,True,0.0427,Healthy,Surface_Obstruction,Healthy,Healthy,Healthy,False,changed
+E108,Train/Surface_Obstruction/Imgdirty_853_1.jpg,Surface_Obstruction,True,0.1608,Healthy,not_sure,Surface_Obstruction,Healthy,ambiguous,False,ambiguous
+E109,Valid/Healthy/Clean (42).jpg,Healthy,True,0.199,Surface_Obstruction,Surface_Obstruction,Healthy,Healthy,Healthy,False,kept
+E110,Valid/Healthy/Clean (53).jpg,Healthy,True,0.1713,Surface_Obstruction,Healthy,Surface_Obstruction,Healthy,Healthy,False,kept
+E111,Valid/Structural_Fault/Physical (2).jpg,Structural_Fault,True,0.1835,Surface_Obstruction,mixed,Surface_Obstruction,Surface_Obstruction,Surface_Obstruction,False,changed
+E112,Train/Electrical_Fault/Electrical (152).jpg,Electrical_Fault,False,0.8697,Electrical_Fault,Electrical_Fault,Structural_Fault,Electrical_Fault,Electrical_Fault,False,kept
+E113,Train/Healthy/Imgclean_748_0.jpg,Healthy,False,0.9121,Healthy,not_sure,Surface_Obstruction,Healthy,ambiguous,False,ambiguous
+E114,Train/Healthy/Imgclean_650_0.jpg,Healthy,False,0.9223,Healthy,Surface_Obstruction,Surface_Obstruction,Healthy,Surface_Obstruction,False,changed
+E115,Train/Healthy/Imgclean_639_0.jpg,Healthy,False,0.4447,Surface_Obstruction,Surface_Obstruction,Surface_Obstruction,Healthy,Surface_Obstruction,False,changed
+E116,Train/Healthy/Imgclean_1175_0.jpg,Healthy,False,0.9314,Healthy,not_sure,Healthy,Healthy,Healthy,False,kept
+E117,Train/Healthy/Imgclean_890_0.jpg,Healthy,False,0.7582,Healthy,not_sure,Surface_Obstruction,Healthy,ambiguous,False,ambiguous
+E118,Valid/Healthy/Clean (29).jpg,Healthy,False,0.9302,Healthy,Healthy,Healthy,Healthy,Healthy,True,kept
+E119,Train/Healthy/Imgclean_356_0.jpg,Healthy,False,0.9269,Healthy,Surface_Obstruction,Surface_Obstruction,Healthy,Surface_Obstruction,False,changed
+E120,Test/Healthy/Clean (113).jpg,Healthy,False,0.9306,Healthy,Surface_Obstruction,Surface_Obstruction,mixed,Surface_Obstruction,False,changed
+E121,Train/Healthy/Imgclean_621_0.jpg,Healthy,False,0.9271,Healthy,Surface_Obstruction,Surface_Obstruction,Healthy,Surface_Obstruction,False,changed
+E122,Train/Healthy/Imgclean_144_0.jpg,Healthy,False,0.9342,Healthy,Surface_Obstruction,Surface_Obstruction,Healthy,Surface_Obstruction,False,changed
+E123,Valid/Healthy/Clean (50).jpg,Healthy,False,0.9307,Healthy,not_sure,Surface_Obstruction,Healthy,ambiguous,False,ambiguous
+E124,Train/Healthy/Imgclean_629_0.jpg,Healthy,False,0.929,Healthy,Surface_Obstruction,Surface_Obstruction,Healthy,Surface_Obstruction,False,changed
+E125,Train/Healthy/Imgclean_702_0.jpg,Healthy,False,0.9301,Healthy,not_sure,Surface_Obstruction,Healthy,ambiguous,False,ambiguous
+E126,Train/Healthy/Imgclean_213_0.jpg,Healthy,False,0.9316,Healthy,not_sure,Surface_Obstruction,Healthy,ambiguous,False,ambiguous
+E127,Train/Healthy/Imgclean_808_0.jpg,Healthy,False,0.9296,Healthy,not_sure,Surface_Obstruction,Healthy,ambiguous,False,ambiguous
+E128,Train/Healthy/Imgclean_221_0.jpg,Healthy,False,0.9031,Healthy,not_sure,Surface_Obstruction,Healthy,ambiguous,False,ambiguous
+E129,Test/Healthy/Clean (133).jpg,Healthy,False,0.9322,Healthy,Surface_Obstruction,Surface_Obstruction,Healthy,Surface_Obstruction,False,changed
+E130,Train/Healthy/Imgclean_1120_0.jpg,Healthy,False,0.9276,Healthy,not_sure,Healthy,Healthy,Healthy,False,kept
+E131,Test/Healthy/Clean (151).jpg,Healthy,False,0.9343,Healthy,Healthy,Healthy,Healthy,Healthy,True,kept
+E132,Train/Healthy/Imgclean_1096_0.jpg,Healthy,False,0.9278,Healthy,Healthy,Healthy,Healthy,Healthy,True,kept
+E133,Train/Healthy/Imgclean_87_0.jpg,Healthy,False,0.9276,Healthy,Healthy,Healthy,Healthy,Healthy,True,kept
+E134,Train/Healthy/Imgclean_69_0.jpg,Healthy,False,0.9127,Healthy,not_sure,Surface_Obstruction,Healthy,ambiguous,False,ambiguous
+E135,Train/Structural_Fault/Physical (72).jpg,Structural_Fault,False,0.2941,Surface_Obstruction,Structural_Fault,Structural_Fault,Structural_Fault,Structural_Fault,True,kept
+E136,Train/Surface_Obstruction/Imgdirty_345_1.jpg,Surface_Obstruction,False,0.5628,Surface_Obstruction,not_sure,Surface_Obstruction,Healthy,ambiguous,False,ambiguous
+E137,Train/Surface_Obstruction/Dust (122).jpg,Surface_Obstruction,False,0.7719,Surface_Obstruction,Surface_Obstruction,Surface_Obstruction,Surface_Obstruction,Surface_Obstruction,True,kept
+E138,Train/Surface_Obstruction/Imgdirty_839_1.jpg,Surface_Obstruction,False,0.8926,Surface_Obstruction,mixed,Surface_Obstruction,Surface_Obstruction,Surface_Obstruction,False,kept
+E139,Train/Surface_Obstruction/Imgdirty_672_1.jpg,Surface_Obstruction,False,0.9276,Surface_Obstruction,Surface_Obstruction,Surface_Obstruction,Healthy,Surface_Obstruction,False,kept
+E140,Train/Surface_Obstruction/Snow (78).jpg,Surface_Obstruction,False,0.9095,Surface_Obstruction,Surface_Obstruction,Surface_Obstruction,Surface_Obstruction,Surface_Obstruction,True,kept
+E141,Train/Surface_Obstruction/Imgdirty_879_1.jpg,Surface_Obstruction,False,0.8225,Surface_Obstruction,,Surface_Obstruction,Structural_Fault,ambiguous,False,ambiguous
+E142,Train/Surface_Obstruction/Imgdirty_785_1.jpg,Surface_Obstruction,False,0.7373,Surface_Obstruction,not_sure,Surface_Obstruction,Electrical_Fault,ambiguous,False,ambiguous
+E143,Train/Surface_Obstruction/Imgdirty_665_1.jpg,Surface_Obstruction,False,0.3052,Healthy,Surface_Obstruction,Surface_Obstruction,Surface_Obstruction,Surface_Obstruction,True,kept
+E144,Train/Surface_Obstruction/Imgdirty_546_1.jpg,Surface_Obstruction,False,0.9388,Surface_Obstruction,Surface_Obstruction,Surface_Obstruction,Surface_Obstruction,Surface_Obstruction,True,kept
+E145,Train/Surface_Obstruction/Imgdirty_851_1.jpg,Surface_Obstruction,False,0.3558,Healthy,Surface_Obstruction,Surface_Obstruction,Surface_Obstruction,Surface_Obstruction,True,kept
+E146,Train/Surface_Obstruction/Imgdirty_596_1.jpg,Surface_Obstruction,False,0.9282,Surface_Obstruction,Surface_Obstruction,Structural_Fault,Surface_Obstruction,Surface_Obstruction,False,kept
+E147,Train/Surface_Obstruction/Imgdirty_62_1.jpg,Surface_Obstruction,False,0.3722,Healthy,Surface_Obstruction,Surface_Obstruction,Structural_Fault,Surface_Obstruction,False,kept
+E148,Test/Surface_Obstruction/Bird (123).jpg,Surface_Obstruction,False,0.7495,Surface_Obstruction,Surface_Obstruction,Surface_Obstruction,Surface_Obstruction,Surface_Obstruction,True,kept
+E149,Train/Surface_Obstruction/Imgdirty_635_1.jpg,Surface_Obstruction,False,0.8978,Surface_Obstruction,mixed,Surface_Obstruction,Surface_Obstruction,Surface_Obstruction,False,kept
