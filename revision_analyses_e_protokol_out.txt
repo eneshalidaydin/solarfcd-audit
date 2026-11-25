@@ -1,0 +1,36 @@
+manifest fold columns: ['kati_grup', 'kat_v1', 'kat_v2', 'kat_v1_t1', 'kat_v1_t2', 'kat_v1_t3', 'kat_v1_t4']
+Evaluation images with a scene partner in another fold under P2: 0.461; multi-member images 998, singletons 1097
+  convnext_tiny_224                  P2 vs P3 acc: all 0.910/0.900; multi-member 0.918/0.899; singletons 0.903/0.902; partner in other P2 fold 0.915/0.895
+  swin_tiny_patch4_window7_224_224   P2 vs P3 acc: all 0.908/0.900; multi-member 0.917/0.894; singletons 0.901/0.905; partner in other P2 fold 0.914/0.890
+  vit_base_patch14_dinov2_224        P2 vs P3 acc: all 0.910/0.897; multi-member 0.913/0.901; singletons 0.908/0.894; partner in other P2 fold 0.910/0.899
+  tf_efficientnetv2_s_224            P2 vs P3 acc: all 0.880/0.870; multi-member 0.886/0.870; singletons 0.875/0.870; partner in other P2 fold 0.882/0.867
+  resnetv2_101_224                   P2 vs P3 acc: all 0.815/0.809; multi-member 0.837/0.823; singletons 0.796/0.797; partner in other P2 fold 0.833/0.819
+
+E3: acc 0.9103 [0.897, 0.925], macro-F1 0.8688 [0.827, 0.902]
+E3 recalls EF,H,SF,SO [0.803 0.955 0.735 0.862]
+vit_base_patch14_dinov2_392: acc 0.9026 ± 0.0044, F1 0.8589 ± 0.0194 [0.820, 0.888]
+vit_base_patch14_dinov2_224: acc 0.9001 ± 0.0032, F1 0.8347 ± 0.0085 [0.789, 0.868]
+convnext_tiny_384: acc 0.8999 ± 0.0015, F1 0.8440 ± 0.0023 [0.801, 0.873]
+DINOv2-392 minus 224 macro-F1: [+0.003, +0.049], bootstrap two-sided p = 0.0280; Holm threshold for the smallest of six p-values = 0.0083
+E3 fold 0: acc 0.8808 (n=428); folds 1-4: acc 0.9178; macro-F1 without fold 0 0.8867
+Largest scene group 36: 299 images, classes {'Healthy': 179, 'Surface_Obstruction': 120}, folds [0], E3 acc on it 0.8829
+E3 without the largest group (n=1796): acc 0.9148 [0.900, 0.928], F1 0.8718 [0.832, 0.906]
+all edges                               : groups among the 2,095 = 1295, singletons 1097, largest 299, next [14, 13, 12]
+without scene_visual                    : groups among the 2,095 = 1571, singletons 1322, largest 46, next [38, 28, 22]
+without scene_visual and photo_visual   : groups among the 2,095 = 1571, singletons 1322, largest 46, next [38, 28, 22]
+check: each rebuilt component maps to 1 manifest scene group(s)
+
+visual_pair_reviews: 16303 decisions; {'unrelated': 15501, 'same_scene': 396, 'uncertain': 223, 'same_photo': 183}; single decision 14593; certainty {'definite': 12413, 'probable': 3890}
+edges from visual review: photo_visual 183 scene_visual 619
+
+TTA effect (P3, weighted over folds and seeds):
+                                     acc  acc_tta  runs  diff_pp
+model                                                           
+convnext_tiny_224                 0.9002   0.9010  15.0   0.0796
+convnext_tiny_384                 0.8999   0.8996  15.0  -0.0318
+convnextv2_tiny_224               0.9041   0.9055  15.0   0.1432
+resnetv2_101_224                  0.8102   0.8126  15.0   0.2387
+swin_tiny_patch4_window7_224_224  0.8977   0.9006  15.0   0.2864
+tf_efficientnetv2_s_224           0.8711   0.8733  15.0   0.2228
+vit_base_patch14_dinov2_224       0.9001   0.8990  15.0  -0.1114
+vit_base_patch14_dinov2_392       0.9026   0.9041  15.0   0.1432

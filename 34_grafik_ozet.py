@@ -1,52 +1,57 @@
 """Adım 34 - Grafik özet (Elsevier: en az 531 × 1328 piksel, y × g; TIFF/PDF). Yalnız makaledeki sayılar; üretken YZ görseli yok.
-Çıktı: makale/graphical_abstract.{png,tif,pdf}"""
+Gönderim öncesi iç değerlendirme (24 Kasım): dış veri dört model noktasıyla, az örnek sonucu gruplu tekrardan (28b) okunur, sağ panelde
+%82-91/%57 yerine işletme-bakım çıkarımları (kullanıcı kararı UD3). Çıktı: makale/graphical_abstract.{png,tif,pdf}
+Son denetim (25 Kasım): kılavuz grafik özetin 13 cm genişlikte okunmasını istiyor. Tuval 16,9 x 6,7 cm (600 dpi), en küçük
+yazı 9 pt, yani 13 cm genişlikte yaklaşık 6,9 pt. Sayılar ve UD3 ifadeleri aynı, yalnız alt bilgideki veri seti satırı çıktı."""
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
+import pandas as pd
 from matplotlib.patches import FancyBboxPatch
 
-plt.rcParams.update({"font.family": "DejaVu Sans", "font.size": 11})
+plt.rcParams.update({"font.family": "DejaVu Sans", "font.size": 9})
 C1, C2, C3, C4, G = "#3b6ea5", "#d9822b", "#2e8b57", "#c0392b", "#9e9e9e"
-fig = plt.figure(figsize=(13.28, 5.31), dpi=300)
+R = pd.read_csv("asama2_sonuclar/az_ornek_gruplu.csv")
+az = R[(R.yontem == "ince_ayar_solarfcd") & (R.butce == sorted(R[R.butce > 0].butce.unique())[1])]  # yaklaşık 110 görüntü
+az_m, az_lo, az_hi, az_n = az.acc.mean(), az.acc.min(), az.acc.max(), az.n_egitim.mean()
+fig = plt.figure(figsize=(6.64, 2.655), dpi=600)  # 16.9 x 6.7 cm: 9 pt text = 6.9 pt at a width of 13 cm
 
 # Sol: doğruluk merdiveni
-ax = fig.add_axes([0.165, 0.18, 0.39, 0.66])
-lab = ["Official split\n(duplicates kept)", "Leak-controlled\ngrouped CV", "New site\n(independent data)", "New site\n+ ~110 labelled images"]
-val = [0.976, 0.900, 0.707, 0.918]
-col = [G, C1, C4, C3]
+fig.text(0.012, 0.975, "What does \"97.6% accuracy\"\nmean for PV inspection?", fontsize=10.5, fontweight="bold", va="top", linespacing=1.15)
+ax = fig.add_axes([0.235, 0.27, 0.205, 0.53])
+lab = ["Official split\n(duplicates kept)", "Leak-controlled\ngrouped CV", "External web data\n(overlap-screened)",
+       f"New sessions +\n~{round(az_n, -1):.0f} labelled images"]
+dis = {"ConvNeXt-T": 0.591, "Swin-T": 0.579, "DINOv2": 0.707, "Ensemble": 0.621}
 y = list(range(len(lab)))[::-1]
-ax.barh(y, val, color=col, height=0.62)
-ax.plot([0.579, 0.707], [y[2], y[2]], color="white", lw=0)
-ax.errorbar([0.643], [y[2]], xerr=[[0.064], [0.064]], fmt="none", ecolor="black", capsize=4, lw=1.2)
-for yi, v, t in zip(y, val, ["97.6%", "90.0%", "58–71%", "91.8%"]):
-    ax.text(v + 0.012, yi, t, va="center", fontsize=13, fontweight="bold")
-ax.set_yticks(y, lab, fontsize=11)
-ax.set_xlim(0.4, 1.08)
-ax.set_xlabel("Classification accuracy", fontsize=11)
+ax.barh(y[:2], [0.976, 0.900], color=[G, C1], height=0.62)
+ax.barh([y[2]], [max(dis.values())], color=C4, height=0.62, alpha=0.35)
+ax.scatter(list(dis.values()), [y[2]] * 4, color=C4, zorder=3, s=7)
+ax.barh([y[3]], [az_m], color=C3, height=0.62)
+ax.errorbar([az_m], [y[3]], xerr=[[az_m - az_lo], [az_hi - az_m]], fmt="none", ecolor="black", capsize=2.5, lw=0.9)
+for yi, v, t in zip(y, [0.976, 0.900, 0.707, az_hi], ["97.6%", "90.0%", "58–71%", f"{100 * az_m:.0f}%"]):
+    ax.text(v + (0.022 if t == "58–71%" else 0.012), yi, t, va="center", fontsize=10, fontweight="bold")
+ax.set_yticks(y, lab, fontsize=9)
+ax.set_xlim(0.4, 1.0)
+ax.set_xticks([0.4, 0.6, 0.8, 1.0])
+ax.set_xlabel("Classification accuracy", fontsize=9, labelpad=2)
 for s in ("top", "right"):
     ax.spines[s].set_visible(False)
-ax.set_title("What does \"97% accuracy\" mean for PV inspection?", loc="right", fontsize=13, fontweight="bold", pad=10)
+fig.text(0.012, 0.025, f"Whisker: range over {R.tekrar.nunique()} session-grouped splits", fontsize=9, color="#444444")
+
+
+def kutu(x, y0, w, h, baslik, metin, ec, tl=1, ls=1.2):
+    fig.patches.append(FancyBboxPatch((x, y0), w, h, boxstyle="round,pad=0.006", transform=fig.transFigure, fc="white", ec=ec, lw=1.0))
+    fig.text(x + 0.010, y0 + h - 0.035, baslik, fontsize=10, fontweight="bold", color=ec, va="top", linespacing=1.1)
+    fig.text(x + 0.010, y0 + h - 0.055 - 0.07 * tl, metin, fontsize=9, va="top", linespacing=ls)
+
 
 # Orta: bulgular
-def kutu(x, y0, w, h, baslik, metin, ec):
-    fig.patches.append(FancyBboxPatch((x, y0), w, h, boxstyle="round,pad=0.008", transform=fig.transFigure, fc="white", ec=ec, lw=1.6))
-    fig.text(x + 0.012, y0 + h - 0.05, baslik, fontsize=11.5, fontweight="bold", color=ec, va="top")
-    fig.text(x + 0.012, y0 + h - 0.13, metin, fontsize=10.5, va="top", linespacing=1.35)
-
-kutu(0.605, 0.56, 0.17, 0.34, "Leakage", "31.5% of files are copies\n42.7% of test images\nduplicated in training", C4)
-kutu(0.605, 0.12, 0.17, 0.36, "Label ambiguity", "3 blinded PV experts\nFleiss κ = 0.12\n84% of errors:\nhealthy ↔ soiled", C2)
-
-# Sağ: risk denetimli ön eleme
-ax2 = fig.add_axes([0.81, 0.14, 0.16, 0.70])
-ax2.bar([0], [0.906], color=C3, width=0.6)
-ax2.bar([0], [0.094], bottom=[0.906], color="#e0e0e0", width=0.6)
-ax2.text(0, 0.45, "91%\nautomatic\n97% accurate\n(certified\n≤5% error)", ha="center", va="center", color="white", fontsize=10.5, fontweight="bold")
-ax2.text(0, 0.953, "9% to inspector", ha="center", va="center", fontsize=9.5)
-ax2.set_xlim(-0.5, 0.5); ax2.set_ylim(0, 1); ax2.axis("off")
-ax2.set_title("Risk-controlled triage\n(after label audit)", fontsize=11.5, fontweight="bold", color=C3)
-
-fig.text(0.165, 0.025, "SolarFCD benchmark audit · 2,095 de-duplicated RGB images · scene-grouped CV · overlap-screened external test",
-         fontsize=9.5, color="#555555")
+kutu(0.535, 0.535, 0.2, 0.43, "Leakage", "31.5% of files\nare copies\n42.7% of test\nimages duplicated\nin training", C4)
+kutu(0.535, 0.035, 0.2, 0.43, "Label ambiguity", "3 blinded PV\nexperts\nFleiss κ = 0.12\n84% of errors:\nhealthy ↔ soiled", C2)
+# Sağ: işletme-bakım çıkarımları
+kutu(0.758, 0.035, 0.232, 0.93, "Implications\nfor O&M",
+     "• Use RGB classifiers\n  to triage, not to\n  diagnose\n• Evaluate with scene-\n  or site-grouped\n  splits\n• Audit labels on a\n  random sample\n"
+     "• Screen external test\n  data for overlap\n• Re-certify error\n  bounds on target\n  data", C3, tl=2, ls=1.13)
 for ext in ("png", "tif", "pdf"):
-    fig.savefig(f"makale/graphical_abstract.{ext}", dpi=300, **({"pil_kwargs": {"compression": "tiff_lzw"}} if ext == "tif" else {}))
-print("ok")
+    fig.savefig(f"makale/graphical_abstract.{ext}", dpi=600, **({"pil_kwargs": {"compression": "tiff_lzw"}} if ext == "tif" else {}))
+print("ok", round(az_m, 4), round(az_lo, 4), round(az_hi, 4), round(az_n, 1))

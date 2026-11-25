@@ -1,0 +1,9 @@
+images 1108 groups 613
+grid 0.50-1, n_cal~50: LTT coverage 0.000; LAC coverage 0.968, set size 3.09
+grid 0.50-1, n_cal~100: LTT coverage 0.000; LAC coverage 0.954, set size 2.71
+grid 0.50-1, n_cal~200: LTT coverage 0.000; LAC coverage 0.951, set size 2.54
+grid 0.50-1, n_cal~400: LTT coverage 0.000; LAC coverage 0.951, set size 2.46
+grid 0.05-1, n_cal~50: LTT coverage 0.000; LAC coverage 0.965, set size 3.04
+grid 0.05-1, n_cal~100: LTT coverage 0.000; LAC coverage 0.954, set size 2.70
+grid 0.05-1, n_cal~200: LTT coverage 0.000; LAC coverage 0.952, set size 2.56
+grid 0.05-1, n_cal~400: LTT coverage 0.003; LAC coverage 0.951, set size 2.46

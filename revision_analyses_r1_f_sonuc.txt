@@ -1,0 +1,78 @@
+== all 2,763
+       mapped_label                                                   combo   n
+ Fault_unknown_type                                       Defective + Dusty 237
+ Fault_unknown_type                                        Defective + Snow 154
+ Fault_unknown_type                                   Bird Drop + Defective 121
+ Fault_unknown_type                        Defective + Non Defective + Snow  61
+ Fault_unknown_type                                               Defective  58
+ Fault_unknown_type                           Bird Drop + Defective + Dusty  39
+ Fault_unknown_type                   Bird Drop + Defective + Non Defective  20
+ Fault_unknown_type                       Defective + Dusty + Non Defective  13
+ Fault_unknown_type                               Defective + Non Defective   6
+ Fault_unknown_type           Bird Drop + Defective + Dusty + Non Defective   5
+ Fault_unknown_type                                        Defective + Dust   4
+            Healthy                                           Non Defective 460
+   Structural_Fault                             Defective + Physical Damage 442
+   Structural_Fault                                         Physical Damage 244
+   Structural_Fault             Defective + Non Defective + Physical Damage  99
+   Structural_Fault                         Non Defective + Physical Damage   7
+   Structural_Fault     Defective + Dusty + Non Defective + Physical Damage   6
+   Structural_Fault                 Bird Drop + Defective + Physical Damage   3
+   Structural_Fault         Bird Drop + Defective + Dusty + Physical Damage   2
+   Structural_Fault Bird Drop + Defective + Non Defective + Physical Damage   1
+   Structural_Fault                     Defective + Dusty + Physical Damage   1
+Surface_Obstruction                                                   Dusty 469
+Surface_Obstruction                                       Bird Drop + Dusty 116
+Surface_Obstruction                                               Bird Drop  84
+Surface_Obstruction                                   Dusty + Non Defective  30
+Surface_Obstruction                                    Non Defective + Snow  29
+Surface_Obstruction                                                    Snow  29
+Surface_Obstruction                       Bird Drop + Dusty + Non Defective   8
+Surface_Obstruction                               Bird Drop + Non Defective   8
+Surface_Obstruction                                                    Dust   6
+Surface_Obstruction                                        Bird Drop + Snow   1
+mapped_label
+Structural_Fault       805
+Surface_Obstruction    780
+Fault_unknown_type     718
+Healthy                460
+== retained 1,478
+       mapped_label                                           combo   n
+ Fault_unknown_type                                Defective + Snow 133
+ Fault_unknown_type                               Defective + Dusty 109
+ Fault_unknown_type                Defective + Non Defective + Snow  52
+ Fault_unknown_type                                       Defective  33
+ Fault_unknown_type                           Bird Drop + Defective  27
+ Fault_unknown_type                   Bird Drop + Defective + Dusty   9
+ Fault_unknown_type           Bird Drop + Defective + Non Defective   3
+ Fault_unknown_type                                Defective + Dust   3
+ Fault_unknown_type                       Defective + Non Defective   1
+            Healthy                                   Non Defective 245
+   Structural_Fault                     Defective + Physical Damage 274
+   Structural_Fault                                 Physical Damage 219
+   Structural_Fault     Defective + Non Defective + Physical Damage  28
+   Structural_Fault                 Non Defective + Physical Damage   3
+   Structural_Fault Bird Drop + Defective + Dusty + Physical Damage   2
+   Structural_Fault         Bird Drop + Defective + Physical Damage   1
+Surface_Obstruction                                           Dusty 212
+Surface_Obstruction                               Bird Drop + Dusty  53
+Surface_Obstruction                                       Bird Drop  26
+Surface_Obstruction                            Non Defective + Snow  18
+Surface_Obstruction                                            Snow  15
+Surface_Obstruction                                            Dust   5
+Surface_Obstruction                           Dusty + Non Defective   5
+Surface_Obstruction               Bird Drop + Dusty + Non Defective   1
+Surface_Obstruction                                Bird Drop + Snow   1
+mapped_label
+Structural_Fault       527
+Fault_unknown_type     370
+Surface_Obstruction    336
+Healthy                245
+
+abstract words (whitespace split): old 242, new 265; counting en-dash compounds as separate words: old 245, new 269; paragraphs new 3
+highlight  73 chars: Leak-controlled, multi-source evaluation cut accuracy from 97.6% to 90.0%
+highlight  75 chars: Without a severity scale, three blinded PV experts agreed poorly (κ = 0.12)
+highlight  79 chars: A certified 5% error bound automated 57% of images, or 82–91% after label audit
+highlight  80 chars: Nearly all images (98.5%) of a public Kaggle PV dataset overlapped with SolarFCD
+highlight  62 chars: On overlap-screened external web data, accuracy fell to 58–71%
+highlight  74 chars: About 110 labels from an external web dataset raised accuracy to about 92%

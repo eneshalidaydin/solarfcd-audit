@@ -1,0 +1,92 @@
+==================== 1. E3 OOF (original labels)
+n=2095 acc 0.9103 macroF1 0.8688
+confusion (rows true EF,H,SF,SO): [[57, 7, 0, 7], [1, 1125, 0, 52], [0, 1, 25, 8], [3, 105, 4, 700]]
+H<->SO errors 157 of 188
+fault (EF+SF) vs no-fault (H+SO): acc 0.9852 baseline 0.9499 TP 82 FP 8 FN 23 recall 0.781 precision 0.911 FPR 8/1990=0.0040
+  precision at fault prevalence 1%: 0.662
+  precision at fault prevalence 2%: 0.799
+  precision at fault prevalence 5%: 0.911
+  true SF -> pred SO: 8 of 34
+  true SF -> pred H: 1 of 34
+  true EF -> pred SO: 7 of 71
+  true EF -> pred H: 7 of 71
+  true SF -> pred EF: 0 of 34
+  true EF -> pred SF: 0 of 71
+action needed (SO/EF/SF) vs no action (H): acc 0.9208 baseline 0.5623 recall 0.877 precision 0.938 missed 113 false alarms 53
+3 action groups (H / SO / EF+SF): acc 0.9103 macroF1 0.8863 recalls none 0.955 clean 0.862 repair 0.781
+by source family: n, acc, predicted-class counts
+  K-clean        n=1012 acc 0.956 pred {'EF': 1, 'H': 967, 'SF': 0, 'SO': 44}
+  K-dirty        n= 456 acc 0.796 pred {'EF': 2, 'H': 90, 'SF': 1, 'SO': 363}
+  PD-bird        n=  91 acc 0.956 pred {'EF': 1, 'H': 0, 'SF': 3, 'SO': 87}
+  PD-clean       n= 166 acc 0.952 pred {'EF': 0, 'H': 158, 'SF': 0, 'SO': 8}
+  PD-dust        n= 145 acc 0.897 pred {'EF': 0, 'H': 15, 'SF': 0, 'SO': 130}
+  PD-electrical  n=  71 acc 0.803 pred {'EF': 57, 'H': 7, 'SF': 0, 'SO': 7}
+  PD-physical    n=  34 acc 0.735 pred {'EF': 0, 'H': 1, 'SF': 25, 'SO': 8}
+  PD-snow        n= 120 acc 1.000 pred {'EF': 0, 'H': 0, 'SF': 0, 'SO': 120}
+SO recall all 0.862 (n=812), without snow 0.838 (n=692)
+SO precision all 0.913, without snow images 0.896
+without snow: n=1975 acc 0.9048 macroF1 0.8637
+per fold: n, acc, macroF1, SF/EF n
+  fold 0: n=428 acc 0.8808 macroF1 0.7892 SF 6 EF 14
+  fold 1: n=417 acc 0.9329 macroF1 0.9019 SF 7 EF 14
+  fold 2: n=417 acc 0.9041 macroF1 0.9120 SF 7 EF 14
+  fold 3: n=417 acc 0.9185 macroF1 0.8094 SF 7 EF 15
+  fold 4: n=416 acc 0.9159 macroF1 0.9169 SF 7 EF 14
+largest scene group id 36: size 299 folds [np.int64(0)] share of fold 0.699 (fold size 428)
+  families: {'K-clean': 167, 'K-dirty': 100, 'PD-dust': 16, 'PD-clean': 12, 'PD-bird': 4} labels: {'H': 179, 'SO': 120}
+  E3 acc inside 0.8829; pooled without it n=1796 acc 0.9148 macroF1 0.8718
+  next largest groups: {125: 14, 782: 13, 756: 12, 717: 11, 878: 11}
+==================== 2. SELECTIVE PREDICTION (LTT, replication of 22_secici_konformal.py)
+[orij] n=2095 coverage 0.5706 +- 0.2741 acc 0.9666 violation 0.040 zero-coverage splits 0.179 | matches saved per-split coverage: True
+   class counts in data: {'EF': 71, 'H': 1178, 'SF': 34, 'SO': 812}
+   mean acceptance rate by true class (all splits): EF 0.224 H 0.634 SF 0.179 SO 0.525 | faults (EF+SF) 0.209
+   same, splits with coverage>0 (n=821): EF 0.273 H 0.772 SF 0.218 SO 0.640 | faults 0.255
+   errors among accepted by true class, total over splits / accepted: EF 759/8036 H 3276/385246 SF 26/3080 SO 17198/219956
+   accepted true faults predicted as no-fault: 785 of 11116 accepted faults (sum over 1000 splits); per split mean 0.785; non-faults accepted as faults per split 0.000; accepted per split 616.3 of 1057.7
+   LAC (eps 0.05) -> action: no action {H} 0.538, cleaning check (H/SO sets) 0.406, priority inspection (set has EF or SF) 0.056, empty 0.0000; true faults flagged 0.889; non-faults flagged 0.011; coverage 0.9510
+   delta=0.05: coverage 0.4731 +- 0.3200 acc 0.9665 violation 0.027 zero-coverage 0.306
+   delta=0.01: coverage 0.2294 +- 0.3179 acc 0.9648 violation 0.009 zero-coverage 0.653
+[orijbel] n=2049 coverage 0.8163 +- 0.0461 acc 0.9699 violation 0.008 zero-coverage splits 0.000 | matches saved per-split coverage: True
+   class counts in data: {'EF': 65, 'H': 1168, 'SF': 31, 'SO': 785}
+   mean acceptance rate by true class (all splits): EF 0.447 H 0.870 SF 0.479 SO 0.781 | faults (EF+SF) 0.458
+   same, splits with coverage>0 (n=1000): EF 0.447 H 0.870 SF 0.479 SO 0.781 | faults 0.458
+   errors among accepted by true class, total over splits / accepted: EF 447/14514 H 7123/509946 SF 513/7466 SO 17878/307024
+   accepted true faults predicted as no-fault: 960 of 21980 accepted faults (sum over 1000 splits); per split mean 0.960; non-faults accepted as faults per split 0.000; accepted per split 839.0 of 1025.9
+   LAC (eps 0.05) -> action: no action {H} 0.555, cleaning check (H/SO sets) 0.395, priority inspection (set has EF or SF) 0.050, empty 0.0000; true faults flagged 0.903; non-faults flagged 0.007; coverage 0.9515
+   delta=0.05: coverage 0.7983 +- 0.0482 acc 0.9717 violation 0.007 zero-coverage 0.000
+   delta=0.01: coverage 0.7581 +- 0.0820 acc 0.9747 violation 0.004 zero-coverage 0.007
+[temiz] n=2049 coverage 0.9065 +- 0.0256 acc 0.9713 violation 0.003 zero-coverage splits 0.000 | matches saved per-split coverage: True
+   class counts in data: {'EF': 64, 'H': 1149, 'SF': 31, 'SO': 805}
+   mean acceptance rate by true class (all splits): EF 0.745 H 0.931 SF 0.668 SO 0.894 | faults (EF+SF) 0.719
+   same, splits with coverage>0 (n=1000): EF 0.745 H 0.931 SF 0.668 SO 0.894 | faults 0.719
+   errors among accepted by true class, total over splits / accepted: EF 1301/23764 H 4967/536365 SF 1527/10410 SO 19431/360406
+   accepted true faults predicted as no-fault: 2828 of 34174 accepted faults (sum over 1000 splits); per split mean 2.828; non-faults accepted as faults per split 0.444; accepted per split 930.9 of 1025.9
+   LAC (eps 0.05) -> action: no action {H} 0.567, cleaning check (H/SO sets) 0.389, priority inspection (set has EF or SF) 0.043, empty 0.0012; true faults flagged 0.852; non-faults flagged 0.003; coverage 0.9516
+   delta=0.05: coverage 0.8995 +- 0.0251 acc 0.9725 violation 0.003 zero-coverage 0.000
+   delta=0.01: coverage 0.8823 +- 0.0314 acc 0.9747 violation 0.003 zero-coverage 0.000
+single threshold on full OOF at coverage 0.571: t=0.925 accepted faults 17/105, H 0.654, SO 0.504
+single threshold, ambiguous removed, coverage 0.816: t=0.869 accepted faults 42/96, accepted faults predicted no-fault 1
+==================== 3. NATIVE RESOLUTION (evaluation set)
+evaluation images: 2095
+  all                  n=2095 median WxH 960x960 | median long side 960 | min width 120 | short side <224: 0.044, <392: 0.135 | short side p10/p50/p90 [325, 720, 1536]
+  Electrical_Fault     n=  71 median WxH 482x398 | median long side 513 | min width 164 | short side <224: 0.155, <392: 0.549 | short side p10/p50/p90 [194, 366, 1200]
+  Healthy              n=1178 median WxH 960x960 | median long side 976 | min width 120 | short side <224: 0.017, <392: 0.097 | short side p10/p50/p90 [394, 720, 1536]
+  Structural_Fault     n=  34 median WxH 759x592 | median long side 774 | min width 300 | short side <224: 0.059, <392: 0.235 | short side p10/p50/p90 [316, 550, 768]
+  Surface_Obstruction  n= 812 median WxH 960x960 | median long side 960 | min width 165 | short side <224: 0.073, <392: 0.150 | short side p10/p50/p90 [300, 720, 1536]
+  family PD-bird        n=  91 median WxH 720x720
+  family PD-clean       n= 166 median WxH 875x777
+  family PD-dust        n= 145 median WxH 1078x960
+  family PD-electrical  n=  71 median WxH 482x398
+  family K-clean        n=1012 median WxH 960x960
+  family K-dirty        n= 456 median WxH 1018x960
+  family PD-physical    n=  34 median WxH 759x592
+  family PD-snow        n= 120 median WxH 608x376
+==================== 4. P1 DECOMPOSITION
+official test: 375 files, RGB 364; RGB test files with no same-photo copy in train: 162 {'H': 98, 'SO': 55, 'SF': 8, 'EF': 1}; none in train or valid: 162 {'H': 98, 'SO': 55, 'SF': 8, 'EF': 1}
+RGB test files with no strict (MD5/dihedral pHash<=4) copy in train or valid: 187
+evaluation-set representatives that are official test files: 189; whose photo group holds only test files: 80 {'H': 56, 'SO': 19, 'SF': 4, 'EF': 1}
+  convnext_tiny     P1(no TTA): all 0.9200 | RGB-only 0.9478 (n=364) | RGB no same-photo copy in train/valid 0.9198 (n=162) | eval-set reps from test-only photo groups 0.9125 (n=80) | eval-set reps that are test files 0.9524 || P3 s42 OOF: all 0.9002 | same test-only reps 0.9250 | same test-file reps 0.9259
+  swin_tiny         P1(no TTA): all 0.9280 | RGB-only 0.9560 (n=364) | RGB no same-photo copy in train/valid 0.9198 (n=162) | eval-set reps from test-only photo groups 0.9000 (n=80) | eval-set reps that are test files 0.9471 || P3 s42 OOF: all 0.8998 | same test-only reps 0.9500 | same test-file reps 0.9312
+  dinov2            P1(no TTA): all 0.9733 | RGB-only 0.9725 (n=364) | RGB no same-photo copy in train/valid 0.9506 (n=162) | eval-set reps from test-only photo groups 0.9375 (n=80) | eval-set reps that are test files 0.9630 || P3 s42 OOF: all 0.8974 | same test-only reps 0.9375 | same test-file reps 0.9418
+  efficientnetv2_s  P1(no TTA): all 0.9067 | RGB-only 0.9313 (n=364) | RGB no same-photo copy in train/valid 0.9136 (n=162) | eval-set reps from test-only photo groups 0.9000 (n=80) | eval-set reps that are test files 0.9471 || P3 s42 OOF: all 0.8697 | same test-only reps 0.9125 | same test-file reps 0.9048
+  resnetv2_101      P1(no TTA): all 0.8800 | RGB-only 0.9066 (n=364) | RGB no same-photo copy in train/valid 0.8580 (n=162) | eval-set reps from test-only photo groups 0.8125 (n=80) | eval-set reps that are test files 0.8889 || P3 s42 OOF: all 0.8091 | same test-only reps 0.8125 | same test-file reps 0.8095

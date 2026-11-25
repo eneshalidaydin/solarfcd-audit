@@ -1,0 +1,5 @@
+convnext_tiny_224                  P2-P3 acc +1.00 pp [-0.27, +2.08]; macro-F1 +0.0113 [-0.016, +0.040]
+swin_tiny_patch4_window7_224_224   P2-P3 acc +0.86 pp [-0.29, +1.83]; macro-F1 +0.0262 [+0.002, +0.053]
+vit_base_patch14_dinov2_224        P2-P3 acc +1.29 pp [+0.27, +2.35]; macro-F1 +0.0221 [-0.009, +0.057]
+tf_efficientnetv2_s_224            P2-P3 acc +1.05 pp [-0.52, +2.38]; macro-F1 +0.0530 [+0.009, +0.098]
+resnetv2_101_224                   P2-P3 acc +0.62 pp [-0.47, +1.62]; macro-F1 +0.0030 [-0.018, +0.024]

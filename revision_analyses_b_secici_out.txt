@@ -1,0 +1,21 @@
+Original labels: coverage 0.571 ± 0.274; zero-coverage splits 179; median 0.678, IQR 0.609-0.736; violation 0.040; violation | any accepted 0.049 (n=821)
+LAC marginal set size 1.117
+  Electrical_Fault     LAC cov 0.911 size 1.35 | Mondrian cov 0.971 | LTT accepted share 0.224
+  Healthy              LAC cov 0.980 size 1.08 | Mondrian cov 0.952 | LTT accepted share 0.634
+  Structural_Fault     LAC cov 0.843 size 1.31 | Mondrian cov 0.939 | LTT accepted share 0.179
+  Surface_Obstruction  LAC cov 0.918 size 1.14 | Mondrian cov 0.952 | LTT accepted share 0.525
+Mondrian LAC: marginal cov 0.953, mean set size 1.296
+Accepted fault (EF+SF) test images per split 11.12; of which predicted H/SO 0.79 (missed-fault rate among accepted fault images 0.071); among images auto-labelled non-fault, share truly faulty 0.0013
+original_alpha0.05                       cov 0.571 median 0.678 IQR 0.609-0.736; zero 179; viol 0.040; viol|accepted 0.049 (40/821)
+original_ambiguous_removed_alpha0.05     cov 0.816 median 0.823 IQR 0.780-0.852; zero 0; viol 0.008; viol|accepted 0.008 (8/1000)
+audited_alpha0.05                        cov 0.906 median 0.903 IQR 0.890-0.921; zero 0; viol 0.003; viol|accepted 0.003 (3/1000)
+original_alpha0.02                       cov 0.000 median 0.000 IQR 0.000-0.000; zero 1000; viol 0.000; viol|accepted nan (0/0)
+original_ambiguous_removed_alpha0.02     cov 0.010 median 0.000 IQR 0.000-0.000; zero 983; viol 0.017; viol|accepted 1.000 (17/17)
+audited_alpha0.02                        cov 0.103 median 0.000 IQR 0.000-0.000; zero 832; viol 0.015; viol|accepted 0.089 (15/168)
+original_alpha0.10                       cov 0.951 median 0.950 IQR 0.942-0.958; zero 0; viol 0.047; viol|accepted 0.047 (47/1000)
+original_ambiguous_removed_alpha0.10     cov 0.987 median 0.999 IQR 0.968-1.000; zero 0; viol 0.000; viol|accepted 0.000 (0/1000)
+audited_alpha0.10                        cov 0.999 median 0.999 IQR 0.998-1.000; zero 0; viol 0.000; viol|accepted 0.000 (0/1000)
+
+Remove the 46 expert-ambiguous images: LTT coverage 0.814 (300 splits)
+Remove 35 random candidates + 11 random non-candidates (no expert input), 20 draws: coverage 0.815 (range 0.781-0.838)
+Remove 46 random images, 20 draws: coverage 0.567 (range 0.496-0.640)

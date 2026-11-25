@@ -1,0 +1,19 @@
+RGB test 364; leak-free by photo group (no same-photo copy in train/valid) 162 files, 108 photo groups; eligible 162; representatives 99
+eval-set reps from leak-free test photo groups: 108 {'H': 67, 'SO': 36, 'SF': 4, 'EF': 1}; eval-set reps that are test files: 189 {'H': 97, 'SO': 76, 'EF': 10, 'SF': 6}
+official RGB test class mix: {'Surface_Obstruction': 0.478, 'Healthy': 0.409, 'Electrical_Fault': 0.063, 'Structural_Fault': 0.049}
+convnext_tiny     P1 no-TTA: all 0.9200 (n=375) | RGB 0.9478 (n=364) | leak-free files 0.9198 (n=162) | leak-free reps 0.9192 (n=99) | test-file reps 0.9524 (n=189)
+                  P3 s42 OOF: all 0.9002 | leak-free reps 0.9444 (n=108) | test-file reps 0.9259 (n=189) | class-recall weighted to official RGB test mix 0.8837
+swin_tiny         P1 no-TTA: all 0.9280 (n=375) | RGB 0.9560 (n=364) | leak-free files 0.9198 (n=162) | leak-free reps 0.9091 (n=99) | test-file reps 0.9471 (n=189)
+                  P3 s42 OOF: all 0.8998 | leak-free reps 0.9537 (n=108) | test-file reps 0.9312 (n=189) | class-recall weighted to official RGB test mix 0.8754
+dinov2            P1 no-TTA: all 0.9733 (n=375) | RGB 0.9725 (n=364) | leak-free files 0.9506 (n=162) | leak-free reps 0.9293 (n=99) | test-file reps 0.9630 (n=189)
+                  P3 s42 OOF: all 0.8974 | leak-free reps 0.9444 (n=108) | test-file reps 0.9418 (n=189) | class-recall weighted to official RGB test mix 0.8782
+efficientnetv2_s  P1 no-TTA: all 0.9067 (n=375) | RGB 0.9313 (n=364) | leak-free files 0.9136 (n=162) | leak-free reps 0.9091 (n=99) | test-file reps 0.9471 (n=189)
+                  P3 s42 OOF: all 0.8697 | leak-free reps 0.9352 (n=108) | test-file reps 0.9048 (n=189) | class-recall weighted to official RGB test mix 0.8290
+resnetv2_101      P1 no-TTA: all 0.8800 (n=375) | RGB 0.9066 (n=364) | leak-free files 0.8580 (n=162) | leak-free reps 0.8283 (n=99) | test-file reps 0.8889 (n=189)
+                  P3 s42 OOF: all 0.8091 | leak-free reps 0.8519 (n=108) | test-file reps 0.8095 (n=189) | class-recall weighted to official RGB test mix 0.7357
+leak-free reps not in P1 test predictions: 9; their splits: {'val': 9}; foto groups' splits: [['test', 'val'], ['test', 'val'], ['test', 'val'], ['test', 'val'], ['test', 'val']]
+convnext_tiny     same leak-free images (n=99): P1 0.9192 vs P3 0.9394 | same test-file reps (n=189): P1 0.9524 vs P3 0.9259
+swin_tiny         same leak-free images (n=99): P1 0.9091 vs P3 0.9495 | same test-file reps (n=189): P1 0.9471 vs P3 0.9312
+dinov2            same leak-free images (n=99): P1 0.9293 vs P3 0.9394 | same test-file reps (n=189): P1 0.9630 vs P3 0.9418
+efficientnetv2_s  same leak-free images (n=99): P1 0.9091 vs P3 0.9293 | same test-file reps (n=189): P1 0.9471 vs P3 0.9048
+resnetv2_101      same leak-free images (n=99): P1 0.8283 vs P3 0.8384 | same test-file reps (n=189): P1 0.8889 vs P3 0.8095

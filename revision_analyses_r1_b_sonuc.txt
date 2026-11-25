@@ -1,0 +1,138 @@
+==================== 1. EXPERT AUDIT
+values: ['Electrical_Fault', 'Healthy', 'Structural_Fault', 'Surface_Obstruction', 'blank', 'mixed', 'not_sure']
+expert1 {'Surface_Obstruction': 77, 'not_sure': 36, 'mixed': 19, 'Healthy': 7, 'Electrical_Fault': 5, 'Structural_Fault': 4, 'blank': 2}
+expert2 {'Surface_Obstruction': 116, 'Structural_Fault': 16, 'Healthy': 16, 'mixed': 1, 'Electrical_Fault': 1}
+expert3 {'Healthy': 79, 'Surface_Obstruction': 38, 'Structural_Fault': 11, 'mixed': 9, 'Electrical_Fault': 9, 'not_sure': 4}
+controls by original label: {'Healthy': 22, 'Surface_Obstruction': 14, 'Electrical_Fault': 1, 'Structural_Fault': 1}
+H controls expert1 {'not_sure': 10, 'Surface_Obstruction': 8, 'Healthy': 4}
+H controls expert2 {'Surface_Obstruction': 16, 'Healthy': 6}
+H controls expert3 {'Healthy': 21, 'mixed': 1}
+SO controls expert1 {'Surface_Obstruction': 9, 'not_sure': 2, 'mixed': 2, 'blank': 1}
+SO controls expert2 {'Surface_Obstruction': 13, 'Structural_Fault': 1}
+SO controls expert3 {'Surface_Obstruction': 9, 'Healthy': 2, 'Structural_Fault': 2, 'Electrical_Fault': 1}
+EF/SF originals: {'Electrical_Fault': 10, 'Structural_Fault': 7}
+  Electrical_Fault expert1 {'Electrical_Fault': 5, 'mixed': 4, 'Structural_Fault': 1}
+  Electrical_Fault expert2 {'Structural_Fault': 7, 'mixed': 1, 'Electrical_Fault': 1, 'Surface_Obstruction': 1}
+  Electrical_Fault expert3 {'Electrical_Fault': 5, 'mixed': 4, 'Structural_Fault': 1}
+  Electrical_Fault consensus {'ambiguous': 6, 'Electrical_Fault': 3, 'Structural_Fault': 1}
+  Structural_Fault expert1 {'mixed': 5, 'Structural_Fault': 2}
+  Structural_Fault expert2 {'Structural_Fault': 6, 'Surface_Obstruction': 1}
+  Structural_Fault expert3 {'mixed': 3, 'Structural_Fault': 3, 'Surface_Obstruction': 1}
+  Structural_Fault consensus {'ambiguous': 3, 'Structural_Fault': 3, 'Surface_Obstruction': 1}
+mixed answers total 29 | on EF/SF originals 17 | EF/SF images 17
+not_sure total 40 by expert {'expert1': 36, 'expert2': 0, 'expert3': 4}
+Fleiss kappa, 6 categories, images without blank answers (n=148): 0.131
+  category-specific kappa (6 cat): {'Electrical_Fault': np.float64(0.31), 'Healthy': np.float64(0.045), 'Structural_Fault': np.float64(0.225), 'Surface_Obstruction': np.float64(0.197), 'mixed': np.float64(0.115), 'not_sure': np.float64(-0.017)}
+Fleiss kappa, 4 classes, images where all three gave a class (n=87): 0.206
+  category-specific kappa (4 cls): {'Electrical_Fault': np.float64(0.54), 'Healthy': np.float64(0.134), 'Structural_Fault': np.float64(0.396), 'Surface_Obstruction': np.float64(0.17)}
+Krippendorff alpha nominal: 6 categories 0.128 (pairable values 448); mixed/not_sure/blank as missing 0.141 (pairable values 371)
+Gwet AC1: 6 categories 0.329 (items 150); mixed/not_sure as missing 0.391 (items 142)
+  expert1-expert2: 6 cat kappa 0.221, raw agreement 0.541 (n=148) | 4 cls kappa 0.576, raw 0.870 (n=92)
+  expert1-expert3: 6 cat kappa 0.212, raw agreement 0.351 (n=148) | 4 cls kappa 0.229, raw 0.500 (n=88)
+  expert2-expert3: 6 cat kappa 0.152, raw agreement 0.373 (n=150) | 4 cls kappa 0.164, raw 0.412 (n=136)
+Fleiss kappa H vs SO, images where all three answered H or SO (n=74): 0.100
+  candidates: Krippendorff alpha (4 cls, others missing) 0.110, Gwet AC1 0.386
+  controls: Krippendorff alpha (4 cls, others missing) 0.214, Gwet AC1 0.406
+unanimous share: 0.253
+status by candidate: {(False, 'kept'): 19, (False, 'ambiguous'): 11, (False, 'changed'): 8, (True, 'kept'): 48, (True, 'ambiguous'): 35, (True, 'changed'): 29}
+==================== 2. RF-FAULT LABEL MAPPING
+RF-Fault rows 2763 removed 1285 (46.507%) retained 1478
+retained mapped labels: {'Structural_Fault': 527, 'Fault_unknown_type': 370, 'Surface_Obstruction': 336, 'Healthy': 245}
+unknown-type (n=370) composition: {'Defective+snow': 185, 'Defective+soiling': 151, 'Defective only': 33, 'Defective+NonDefective': 1}
+unknown with soiling or snow box: 336 | of which with snow: 185
+box-class combinations among all retained (top 20):
+{'1,5': 274, '4': 245, '5': 219, '3': 212, '1,6': 133, '1,3': 109, '0,3': 53, '1,4,6': 52, '1': 33, '1,4,5': 28, '0,1': 27, '0': 26, '4,6': 18, '6': 15, '0,1,3': 9, '2': 5, '3,4': 5, '4,5': 3, '0,1,4': 3, '1,2': 3}
+retained images with >1 box class: 723 of 1478
+retained RF-Fault with Imgdirty_* names: 12 | carrying Defective (class 1): 10 | mapped labels: {'Fault_unknown_type': 10, 'Surface_Obstruction': 2}
+  Imgdirty box combos: {'1,3': 10, '3': 2}
+retained RF-Fault with Imgclean_* names: 1
+retained RF-Fault whose stem equals a SolarFCD file stem: 3 | unique stems: 3
+retained RF-Fault whose nearest SolarFCD neighbour has the same stem: 3
+                stem  phash_min_distance  dinov2_max_cosine                              nearest_solarfcd        mapped_label
+1857  Imgdirty_475_1                  14             0.8295  Train/Surface_Obstruction/Imgdirty_475_1.jpg  Fault_unknown_type
+2577  Imgdirty_662_1                  16             0.8421  Train/Surface_Obstruction/Imgdirty_662_1.jpg  Fault_unknown_type
+2581  Imgdirty_799_1                  16             0.8437  Train/Surface_Obstruction/Imgdirty_799_1.jpg  Fault_unknown_type
+same-stem retained: pHash range 14 16 cos range 0.8295 0.8437
+retained RF-Fault unique stems: 1021 for 1478 images
+prediction rows 1478
+ConvNeXt   fault/no-fault: manuscript mapping 55.277% (baseline 60.690%, n=1478) | Defective+soil/snow as no-fault 77.876% (baseline 62.043%) | unknown excluded 73.105% (baseline 52.437%, n=1108) | 4-class 59.116% (n=1108) | 4-class with Defective+soil/snow as SO 68.283% (n=1444, SO recall 0.848)
+Swin       fault/no-fault: manuscript mapping 53.248% (baseline 60.690%, n=1478) | Defective+soil/snow as no-fault 75.710% (baseline 62.043%) | unknown excluded 70.307% (baseline 52.437%, n=1108) | 4-class 57.942% (n=1108) | 4-class with Defective+soil/snow as SO 67.313% (n=1444, SO recall 0.824)
+DINOv2-392 fault/no-fault: manuscript mapping 60.419% (baseline 60.690%, n=1478) | Defective+soil/snow as no-fault 82.612% (baseline 62.043%) | unknown excluded 79.693% (baseline 52.437%, n=1108) | 4-class 70.668% (n=1108) | 4-class with Defective+soil/snow as SO 77.008% (n=1444, SO recall 0.859)
+E3         fault/no-fault: manuscript mapping 56.360% (baseline 60.690%, n=1478) | Defective+soil/snow as no-fault 78.823% (baseline 62.043%) | unknown excluded 74.458% (baseline 52.437%, n=1108) | 4-class 62.094% (n=1108) | 4-class with Defective+soil/snow as SO 70.568% (n=1444, SO recall 0.842)
+E3 predictions on Defective+soiling/snow images (n=336): {'Surface_Obstruction': 331, 'Healthy': 3, 'Electrical_Fault': 1, 'Structural_Fault': 1}
+E3 predictions on Defective-only/other unknown (n=34): {'Surface_Obstruction': 26, 'Electrical_Fault': 5, 'Healthy': 2, 'Structural_Fault': 1}
+ConvNeXt   4-class acc 59.116%: Wilson 56.194%-61.974% | stem-cluster bootstrap 54.170%-64.027% (678 stems)
+           fault/no-fault 55.277%: Wilson 52.732%-57.795% | stem bootstrap 51.358%-59.000% (1021 stems)
+Swin       4-class acc 57.942%: Wilson 55.013%-60.817% | stem-cluster bootstrap 53.315%-62.893% (678 stems)
+           fault/no-fault 53.248%: Wilson 50.699%-55.780% | stem bootstrap 49.396%-57.143% (1021 stems)
+DINOv2-392 4-class acc 70.668%: Wilson 67.919%-73.274% | stem-cluster bootstrap 65.851%-75.662% (678 stems)
+           fault/no-fault 60.419%: Wilson 57.902%-62.882% | stem bootstrap 56.557%-63.963% (1021 stems)
+E3         4-class acc 62.094%: Wilson 59.200%-64.904% | stem-cluster bootstrap 57.028%-66.959% (678 stems)
+           fault/no-fault 56.360%: Wilson 53.818%-58.869% | stem bootstrap 52.475%-60.227% (1021 stems)
+four-class known images: 1108 | unique stems among them: 678
+==================== 3. RF-SOILING
+RF-Soiling rows 302 removed 165 (54.636%) retained 137
+retained RF-Soiling unique stems: 83 | mapped: {'Surface_Obstruction': 137}
+RF-Soiling retained stems also among retained RF-Fault stems: 53 ['ROI_10', 'ROI_104', 'ROI_107', 'ROI_108', 'ROI_11', 'ROI_117', 'ROI_119', 'ROI_12', 'ROI_121', 'ROI_128']
+RF-Soiling retained stems among ALL RF-Fault stems (incl. removed): 64
+RF-Fault retained images with ROI_* stems: 140 | their mapped labels: {'Surface_Obstruction': 139, 'Fault_unknown_type': 1}
+ConvNeXt   RF-Soiling SO recall 0.285: Wilson 0.216-0.365 | stem bootstrap 0.184-0.398 (83 stems)
+Swin       RF-Soiling SO recall 0.190: Wilson 0.133-0.264 | stem bootstrap 0.107-0.279 (83 stems)
+DINOv2-392 RF-Soiling SO recall 0.226: Wilson 0.164-0.303 | stem bootstrap 0.141-0.326 (83 stems)
+E3         RF-Soiling SO recall 0.234 | stem bootstrap 0.137-0.338; E3 predictions: {'Healthy': 73, 'Electrical_Fault': 32, 'Surface_Obstruction': 32}
+==================== 4. FEW-SHOT SESSION STRUCTURE (1,108 four-class RF-Fault images)
+four-class images 1108 {'Structural_Fault': 527, 'Surface_Obstruction': 336, 'Healthy': 245}
+IMG_20241003_* images: 78 | unique stems: 78 | time range: 085904 - 095449 | labels: {'Surface_Obstruction': 49, 'Healthy': 29}
+IMG_YYYYMMDD_* by date: {'20241003': 78, '20230325': 26, '20230324': 4, '20230307': 1, '20230313': 1, '20241002': 1}
+IMG_#### images: 477 | distinct camera numbers: 83 | labels: {'Healthy': 209, 'Structural_Fault': 147, 'Surface_Obstruction': 121}
+top name families (four-class): {'IMG': 487, 'Physical_Damge': 227, 'ROI': 139, 'pv_crack': 57, 'Rusak': 34, 'poop': 21, 'Dusty': 14, 'Scratch': 8, 'good-d': 6, '1000_F': 5, 'cracked-f': 4, 'solar_Fri_Jun': 4}
+'Physical_Dam*' family: 227 {'Structural_Fault': 222, 'Surface_Obstruction': 3, 'Healthy': 2}
+SF images total: 527
+    target_fraction  repeat initialisation  n_train  n_test       acc  macro_f1
+0              0.00       0       solarfcd        0     552  0.619565  0.634549
+1              0.05       0       solarfcd       56     552  0.833333  0.830558
+2              0.05       0       imagenet       56     552  0.748188  0.712428
+3              0.05       1       solarfcd       56     552  0.802536  0.770023
+4              0.05       1       imagenet       56     552  0.681159  0.574566
+5              0.05       2       solarfcd       58     552  0.762681  0.724095
+6              0.05       2       imagenet       58     552  0.628623  0.539201
+7              0.10       0       solarfcd      111     552  0.936594  0.932964
+8              0.10       0       imagenet      111     552  0.778986  0.709584
+9              0.10       1       solarfcd      111     552  0.878623  0.869664
+10             0.10       1       imagenet      111     552  0.780797  0.736485
+11             0.10       2       solarfcd      111     552  0.940217  0.939445
+12             0.10       2       imagenet      111     552  0.717391  0.679949
+13             0.20       0       solarfcd      222     552  0.958333  0.956346
+14             0.20       0       imagenet      222     552  0.943841  0.941701
+15             0.20       1       solarfcd      222     552  0.878623  0.871192
+16             0.20       1       imagenet      222     552  0.855072  0.837329
+17             0.20       2       solarfcd      224     552  0.972826  0.972077
+18             0.20       2       imagenet      224     552  0.865942  0.862071
+                                  mean     std     min     max  count
+target_fraction initialisation                                       
+0.00            solarfcd        0.6196     NaN  0.6196  0.6196      1
+0.05            imagenet        0.6860  0.0599  0.6286  0.7482      3
+                solarfcd        0.7995  0.0354  0.7627  0.8333      3
+0.10            imagenet        0.7591  0.0361  0.7174  0.7808      3
+                solarfcd        0.9185  0.0346  0.8786  0.9402      3
+0.20            imagenet        0.8883  0.0484  0.8551  0.9438      3
+                solarfcd        0.9366  0.0507  0.8786  0.9728      3
+initialisation          imagenet  solarfcd    diff
+target_fraction repeat                            
+0.05            0         0.7482    0.8333  0.0851
+                1         0.6812    0.8025  0.1214
+                2         0.6286    0.7627  0.1341
+0.10            0         0.7790    0.9366  0.1576
+                1         0.7808    0.8786  0.0978
+                2         0.7174    0.9402  0.2228
+0.20            0         0.9438    0.9583  0.0145
+                1         0.8551    0.8786  0.0236
+                2         0.8659    0.9728  0.1069
+==================== 5. VISUAL PAIR REVIEWS
+rows 16303 | decisions: {'unrelated': 15501, 'same_scene': 396, 'uncertain': 223, 'same_photo': 183}
+review_round prefixes: {'r4': 6875, 'r3': 5181, 'r2': 3928, 'r1': 304, 'r41': 15}
+n_decisions sum: 18376
+==================== 6. LTT MINIMUM ACCEPTED CALIBRATION IMAGES WITH ZERO ERRORS
+delta=0.1: zero errors needs n_k >= 92; with the 50% minimum coverage level, calibration set >= 184; one error needs n_k >= 133
+delta=0.05: zero errors needs n_k >= 106; with the 50% minimum coverage level, calibration set >= 212; one error needs n_k >= 148
+delta=0.01: zero errors needs n_k >= 137; with the 50% minimum coverage level, calibration set >= 274; one error needs n_k >= 183

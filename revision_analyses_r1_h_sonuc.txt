@@ -1,0 +1,3 @@
+﻿[orij] per 1,000 test images: reviewed 429; faults accepted automatically 10.4; accepted faults labelled no-fault 0.73; non-faults accepted as faults 0.00 | mean test faults per split 53.0 | error among accepted by class EF 0.094 H 0.009 SF 0.008 SO 0.078
+[orijbel] per 1,000 test images: reviewed 184; faults accepted automatically 21.7; accepted faults labelled no-fault 0.93; non-faults accepted as faults 0.00 | mean test faults per split 48.0 | error among accepted by class EF 0.031 H 0.014 SF 0.069 SO 0.058
+[temiz] per 1,000 test images: reviewed 94; faults accepted automatically 33.9; accepted faults labelled no-fault 2.76; non-faults accepted as faults 0.44 | mean test faults per split 47.5 | error among accepted by class EF 0.055 H 0.009 SF 0.147 SO 0.054

@@ -1,0 +1,40 @@
+E3 overall acc (orig labels): 0.9103 n 2095
+Candidates: n 112 | E3 == original label: 0
+Non-ambiguous candidates 77 | consensus == E3: 28 | consensus == original: 48
+Ambiguous (all 150): 46 | of which candidates 35 | E3 errors among ambiguous: 35
+Controls changed: 8 {'Healthy': 8} -> {'Surface_Obstruction': 8} | E3 prediction on them: {'Healthy': 8}
+Controls ambiguous: 11 | kept 19
+Controls: E3 == original 35 / 38 | E3 == consensus 16 / 27 | retrained E3 == consensus 19 / 27
+  controls, E3 vs uzman1: 12/23 = 0.522 (4-class answers only); over all 38: 0.316; uzman1 vs original 0.395
+  controls, E3 vs uzman2: 17/38 = 0.447 (4-class answers only); over all 38: 0.447; uzman2 vs original 0.526
+  controls, E3 vs uzman3: 30/37 = 0.811 (4-class answers only); over all 38: 0.789; uzman3 vs original 0.842
+Non-candidate population by class: {'Healthy': 1154, 'Surface_Obstruction': 739, 'Electrical_Fault': 62, 'Structural_Fault': 28} | controls by class: {'Healthy': 22, 'Surface_Obstruction': 14, 'Electrical_Fault': 1, 'Structural_Fault': 1}
+Stratified E3 accuracy vs expert consensus (non-ambiguous): 0.577 [0.407, 0.738] (estimated non-ambiguous population 1482)
+Same for retrained E3 (audited labels): 0.688
+Check: same estimator with original labels = 0.871 vs true full-data E3 accuracy 0.910
+Fleiss (script, 6 options, all 150): 0.123; complete items only (148): 0.131; variable-n version: 0.123
+  Fleiss all        complete n=148: 0.131 [0.048, 0.205]
+  Fleiss candidates complete n=111: 0.120 [0.037, 0.197]
+  Fleiss controls   complete n=37: 0.152 [-0.047, 0.330]
+Items where all three chose one of the four classes: 87; Fleiss on them 0.206
+  all        Krippendorff alpha (6 options, missing allowed) 0.128; (4 classes, other answers missing) 0.141 [0.007, 0.268]; Gwet AC1 (6 options) 0.329 [0.265, 0.401]; unanimous 0.253
+  candidates Krippendorff alpha (6 options, missing allowed) 0.119; (4 classes, other answers missing) 0.110 [-0.036, 0.241]; Gwet AC1 (6 options) 0.324 [0.248, 0.408]; unanimous 0.241
+  controls   Krippendorff alpha (6 options, missing allowed) 0.151; (4 classes, other answers missing) 0.214 [-0.067, 0.441]; Gwet AC1 (6 options) 0.343 [0.193, 0.486]; unanimous 0.289
+  pairwise raw agreement uzman1-uzman2: 0.541 (n=148)
+  pairwise raw agreement uzman1-uzman3: 0.351 (n=148)
+  pairwise raw agreement uzman2-uzman3: 0.373 (n=150)
+  specific agreement for Healthy: 0.335
+  specific agreement for Surface_Obstruction: 0.690
+SO consensus labels: 80 {'uzman1': 74, 'uzman2': 78, 'uzman3': 38}
+  drop uzman1, controls: changed 0, kept 15, ambiguous 23
+  drop uzman1, candidates: changed 18, kept 23, ambiguous 71
+  drop uzman2, controls: changed 0, kept 13, ambiguous 25
+  drop uzman2, candidates: changed 12, kept 19, ambiguous 81
+  drop uzman3, controls: changed 8, kept 13, ambiguous 17
+  drop uzman3, candidates: changed 19, kept 40, ambiguous 53
+Controls changed or ambiguous: 19/38
+Dawid-Skene class priors (EF,H,SF,SO): [0.053 0.144 0.042 0.761]
+  expert1: P(says SO | latent H) = 0.37, P(says H | latent H) = 0.61, P(says H | latent SO) = 0.00, P(says SO | latent SO) = 0.98
+  expert2: P(says SO | latent H) = 0.26, P(says H | latent H) = 0.73, P(says H | latent SO) = 0.00, P(says SO | latent SO) = 0.96
+  expert3: P(says SO | latent H) = 0.01, P(says H | latent H) = 0.98, P(says H | latent SO) = 0.54, P(says SO | latent SO) = 0.35
+DS label vs original on controls: 22 / 38

@@ -1,0 +1,43 @@
+dataset,source_class_ids,source_classes,rule,mapped_label,used_in,images_all,images_retained
+RF-Fault,"1,5",Defective + Physical Damage,1 Physical Damage box present,Structural_Fault,four-class and fault/no-fault,442,274
+RF-Fault,5,Physical Damage,1 Physical Damage box present,Structural_Fault,four-class and fault/no-fault,244,219
+RF-Fault,"1,4,5",Defective + Non Defective + Physical Damage,1 Physical Damage box present,Structural_Fault,four-class and fault/no-fault,99,28
+RF-Fault,"4,5",Non Defective + Physical Damage,1 Physical Damage box present,Structural_Fault,four-class and fault/no-fault,7,3
+RF-Fault,"1,3,4,5",Defective + Dusty + Non Defective + Physical Damage,1 Physical Damage box present,Structural_Fault,four-class and fault/no-fault,6,0
+RF-Fault,"0,1,5",Bird Drop + Defective + Physical Damage,1 Physical Damage box present,Structural_Fault,four-class and fault/no-fault,3,1
+RF-Fault,"0,1,3,5",Bird Drop + Defective + Dusty + Physical Damage,1 Physical Damage box present,Structural_Fault,four-class and fault/no-fault,2,2
+RF-Fault,"0,1,4,5",Bird Drop + Defective + Non Defective + Physical Damage,1 Physical Damage box present,Structural_Fault,four-class and fault/no-fault,1,0
+RF-Fault,"1,3,5",Defective + Dusty + Physical Damage,1 Physical Damage box present,Structural_Fault,four-class and fault/no-fault,1,0
+RF-Fault,"1,3",Defective + Dusty,"2 Defective box present, no Physical Damage",Fault_unknown_type,fault/no-fault only,237,109
+RF-Fault,"1,6",Defective + Snow,"2 Defective box present, no Physical Damage",Fault_unknown_type,fault/no-fault only,154,133
+RF-Fault,"0,1",Bird Drop + Defective,"2 Defective box present, no Physical Damage",Fault_unknown_type,fault/no-fault only,121,27
+RF-Fault,"1,4,6",Defective + Non Defective + Snow,"2 Defective box present, no Physical Damage",Fault_unknown_type,fault/no-fault only,61,52
+RF-Fault,1,Defective,"2 Defective box present, no Physical Damage",Fault_unknown_type,fault/no-fault only,58,33
+RF-Fault,"0,1,3",Bird Drop + Defective + Dusty,"2 Defective box present, no Physical Damage",Fault_unknown_type,fault/no-fault only,39,9
+RF-Fault,"0,1,4",Bird Drop + Defective + Non Defective,"2 Defective box present, no Physical Damage",Fault_unknown_type,fault/no-fault only,20,3
+RF-Fault,"1,3,4",Defective + Dusty + Non Defective,"2 Defective box present, no Physical Damage",Fault_unknown_type,fault/no-fault only,13,0
+RF-Fault,"1,4",Defective + Non Defective,"2 Defective box present, no Physical Damage",Fault_unknown_type,fault/no-fault only,6,1
+RF-Fault,"0,1,3,4",Bird Drop + Defective + Dusty + Non Defective,"2 Defective box present, no Physical Damage",Fault_unknown_type,fault/no-fault only,5,0
+RF-Fault,"1,2",Defective + Dust,"2 Defective box present, no Physical Damage",Fault_unknown_type,fault/no-fault only,4,3
+RF-Fault,3,Dusty,"3 Bird Drop, Dust, Dusty or Snow box present, no Physical Damage or Defective",Surface_Obstruction,four-class and fault/no-fault,469,212
+RF-Fault,"0,3",Bird Drop + Dusty,"3 Bird Drop, Dust, Dusty or Snow box present, no Physical Damage or Defective",Surface_Obstruction,four-class and fault/no-fault,116,53
+RF-Fault,0,Bird Drop,"3 Bird Drop, Dust, Dusty or Snow box present, no Physical Damage or Defective",Surface_Obstruction,four-class and fault/no-fault,84,26
+RF-Fault,"3,4",Dusty + Non Defective,"3 Bird Drop, Dust, Dusty or Snow box present, no Physical Damage or Defective",Surface_Obstruction,four-class and fault/no-fault,30,5
+RF-Fault,"4,6",Non Defective + Snow,"3 Bird Drop, Dust, Dusty or Snow box present, no Physical Damage or Defective",Surface_Obstruction,four-class and fault/no-fault,29,18
+RF-Fault,6,Snow,"3 Bird Drop, Dust, Dusty or Snow box present, no Physical Damage or Defective",Surface_Obstruction,four-class and fault/no-fault,29,15
+RF-Fault,"0,3,4",Bird Drop + Dusty + Non Defective,"3 Bird Drop, Dust, Dusty or Snow box present, no Physical Damage or Defective",Surface_Obstruction,four-class and fault/no-fault,8,1
+RF-Fault,"0,4",Bird Drop + Non Defective,"3 Bird Drop, Dust, Dusty or Snow box present, no Physical Damage or Defective",Surface_Obstruction,four-class and fault/no-fault,8,0
+RF-Fault,2,Dust,"3 Bird Drop, Dust, Dusty or Snow box present, no Physical Damage or Defective",Surface_Obstruction,four-class and fault/no-fault,6,5
+RF-Fault,"0,6",Bird Drop + Snow,"3 Bird Drop, Dust, Dusty or Snow box present, no Physical Damage or Defective",Surface_Obstruction,four-class and fault/no-fault,1,1
+RF-Fault,4,Non Defective,4 only Non Defective boxes,Healthy,four-class and fault/no-fault,460,245
+RF-Fault,,(no box),5 no box,,excluded,0,0
+RF-Soiling,"0,1",Dust + bird-droppings,1 any box,Surface_Obstruction,four-class (SO recall),185,77
+RF-Soiling,0,Dust,1 any box,Surface_Obstruction,four-class (SO recall),100,55
+RF-Soiling,1,bird-droppings,1 any box,Surface_Obstruction,four-class (SO recall),17,5
+RF-Soiling,,(no box),2 no box,Healthy,four-class (SO recall),0,0
+Kaggle PV Panel Defect,,Bird-drop,class folder,Surface_Obstruction,overlap screening only,298,0
+Kaggle PV Panel Defect,,Clean,class folder,Healthy,overlap screening only,289,0
+Kaggle PV Panel Defect,,Dusty,class folder,Surface_Obstruction,overlap screening only,275,0
+Kaggle PV Panel Defect,,Snow-Covered,class folder,Surface_Obstruction,overlap screening only,262,4
+Kaggle PV Panel Defect,,Electrical-damage,class folder,Electrical_Fault,overlap screening only,225,0
+Kaggle PV Panel Defect,,Physical-Damage,class folder,Structural_Fault,overlap screening only,225,20

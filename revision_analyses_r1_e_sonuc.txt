@@ -1,0 +1,4 @@
+﻿RF-Fault DINOv2-224_P3_seed42: 4-class acc 0.7067 (n=1108) stem bootstrap 0.6581-0.7518 (678 stems)
+RF-Fault DINOv2-224_P2_seed42: 4-class acc 0.6778 (n=1108) stem bootstrap 0.6305-0.7246 (678 stems)
+RF-Soiling DINOv2-224_P3_seed42: SO recall 0.2847 (n=137) stem bootstrap 0.1888-0.3841 (83 stems)
+RF-Soiling DINOv2-224_P2_seed42: SO recall 0.2190 (n=137) stem bootstrap 0.1295-0.3212 (83 stems)

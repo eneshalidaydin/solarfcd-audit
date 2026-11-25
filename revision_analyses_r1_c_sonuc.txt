@@ -1,0 +1,6 @@
+﻿Imgdirty_* in all RF-Fault: 97 removed 85 retained 12
+ with Defective box: 76
+ box combos: {'1,3': 67, '3': 20, '1,3,4': 8, '1': 1, '3,4': 1}
+ mapped: {'Fault_unknown_type': 76, 'Surface_Obstruction': 21}
+IMG_#### (4 digits, not dates) in four-class retained: 361 distinct numbers: 81 labels: {'Healthy': 145, 'Structural_Fault': 144, 'Surface_Obstruction': 72}
+ range of numbers: 389 8609

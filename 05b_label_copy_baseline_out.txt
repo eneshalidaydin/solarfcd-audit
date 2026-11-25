@@ -1,0 +1,13 @@
+Output of: python 05b_label_copy_baseline.py --solarfcd <SOLARFCD_DIR>
+
+Official split: 3030 Train, 337 Valid, 375 Test files
+Test files with a copy in Train (MD5 or dihedral pHash distance <= 4): 185 (byte-identical: 160)
+Label-copy baseline: 168/375 = 44.8% of all Test files labelled correctly by copying the label of their Train copy; accuracy on the 185 files with a copy 90.8%
+Nearest-Train-file lookup for all Test files: 249/375 = 66.4%
+Majority-class baseline (Surface_Obstruction): 174/375 = 46.4%
+
+By class (Test files, with a copy in Train, correct via the copy):
+  Electrical_Fault       23   22   20
+  Healthy               149   46   46
+  Structural_Fault       29   15    3
+  Surface_Obstruction   174  102   99

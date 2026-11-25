@@ -1,0 +1,22 @@
+source_family  label              
+Bird           Surface_Obstruction      91
+Clean          Healthy                 166
+Dust           Surface_Obstruction     145
+Electrical     Electrical_Fault         71
+Imgclean       Healthy                1012
+Imgdirty       Surface_Obstruction     456
+Physical       Structural_Fault         34
+Snow           Surface_Obstruction     120
+Within Healthy: 1-NN recovers the source collection (K vs PD) for 0.828 of 1178 images (balanced 0.716)
+Within Surface_Obstruction: 1-NN recovers the source collection (K vs PD) for 0.624 of 812 images (balanced 0.625)
+Within Healthy: 1-NN recovers the source family for 0.828 (balanced 0.716) over ['Clean', 'Imgclean']
+Within Surface_Obstruction: 1-NN recovers the source family for 0.574 (balanced 0.540) over ['Bird', 'Dust', 'Imgdirty', 'Snow']
+H vs SO within K (grouped 1-NN): acc 0.732, balanced 0.664, n 1468
+H vs SO within PD (grouped 1-NN): acc 0.812, balanced 0.821, n 522
+H vs SO, lookup in K only, tested on PD: acc 0.519, balanced 0.567, recall H 0.699, SO 0.435, n 522
+H vs SO, lookup in PD only, tested on K: acc 0.559, balanced 0.608, recall H 0.478, SO 0.737, n 1468
+model                    img_size
+convnext_tiny            224         6285
+                         384         6285
+vit_base_patch14_dinov2  224         6285
+                         392         6285

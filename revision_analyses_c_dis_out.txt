@@ -1,0 +1,32 @@
+RF-Fault: n 2763, removed 1285 (MD5 0, pHash<=12 754, cos>=0.85 1234, cosine-only 531, cos>=0.90 944, cos>=0.95 785)
+   Fault_unknown_type     n   718 removed 0.485; cosine-only removed 0.135
+   Healthy                n   460 removed 0.467; cosine-only removed 0.235
+   Structural_Fault       n   805 removed 0.345; cosine-only removed 0.163
+   Surface_Obstruction    n   780 removed 0.569; cosine-only removed 0.250
+   four-class before screening: {'Structural_Fault': 805, 'Surface_Obstruction': 780, 'Healthy': 460} | after: {'Structural_Fault': 527, 'Surface_Obstruction': 336, 'Healthy': 245}
+RF-Soiling: n 302, removed 165 (MD5 0, pHash<=12 39, cos>=0.85 154, cosine-only 126, cos>=0.90 64, cos>=0.95 2)
+   Surface_Obstruction    n   302 removed 0.546; cosine-only removed 0.417
+
+RF-Fault four-class n 1108: E3 acc 0.6209; majority baseline 0.4756 (Structural_Fault)
+              mean  size
+band                    
+[0.0, 0.5)   0.673   199
+[0.5, 0.6)   0.461   152
+[0.6, 0.7)   0.540   202
+[0.7, 0.8)   0.619   302
+[0.8, 0.85)  0.743   253
+E3 external recalls: {'Healthy': np.float64(0.882), 'Structural_Fault': np.float64(0.45), 'Surface_Obstruction': np.float64(0.699)} balanced acc 0.677
+  ConvNeXt    acc 0.591 [Wilson 0.562, 0.620] balanced 0.649
+  Swin        acc 0.579 [Wilson 0.550, 0.608] balanced 0.649
+  DINOv2-392  acc 0.707 [Wilson 0.679, 0.733] balanced 0.739
+  E3          acc 0.621 [Wilson 0.592, 0.649]
+In-domain E3 on H/SF/SO images (n=2024): acc 0.9140; recalls {'Healthy': np.float64(0.955), 'Structural_Fault': np.float64(0.735), 'Surface_Obstruction': np.float64(0.862)}; balanced 0.851; priors {'Healthy': np.float64(0.582), 'Structural_Fault': np.float64(0.0168), 'Surface_Obstruction': np.float64(0.4012)}
+RF-Fault E3 recalls re-weighted by SolarFCD H/SF/SO priors: 0.8013
+
+Transferred threshold 0.9072: accepted 259/1108 = 0.234, errors 8, accuracy 0.9691; one-sided CP upper bound on error 95%: 0.0550, 90%: 0.0497
+
+ECE in-domain 0.035 [cluster bootstrap 0.030, 0.050]; max confidence 0.950, 99th percentile 0.937; bin counts [0, 0, 0, 3, 32, 68, 74, 93, 207, 1618]
+ECE RF-Fault 0.135 [i.i.d. bootstrap 0.111, 0.159]; bin counts [0, 0, 0, 19, 99, 159, 181, 144, 217, 289]
+ECE RF-Soiling 0.426 [i.i.d. bootstrap 0.365, 0.504]; bin counts [0, 0, 0, 5, 15, 35, 30, 24, 17, 11]
+
+E3 fault/no-fault acc 0.5636 [Wilson 0.538, 0.589] n=1478; all-faulty baseline 0.6069

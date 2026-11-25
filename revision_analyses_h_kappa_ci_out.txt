@@ -1,0 +1,3 @@
+all        n=150 Fleiss (variable n) 0.123 [0.045, 0.199]
+candidates n=112 Fleiss (variable n) 0.115 [0.033, 0.196]
+controls   n=38 Fleiss (variable n) 0.138 [-0.042, 0.320]
